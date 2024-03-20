@@ -1,0 +1,1539 @@
+Arbol: Survived
+Combinación: 0, Apariciones: 26, Probabilidad: 0.52, Entropía: 0.1476782613099044
+Combinación: 1, Apariciones: 24, Probabilidad: 0.48, Entropía: 0.15300420605971812
+Entropía Total: 0.30068246736962256
+-------------------------------------------------
+Arbol: Survived » Pclass
+Combinación: 0 » 1, Apariciones: 5, Probabilidad: 0.19230769230769232, Entropía: 0.13769295069899984
+Combinación: 0 » 2, Apariciones: 4, Probabilidad: 0.15384615384615385, Entropía: 0.1250635933296701
+Combinación: 0 » 3, Apariciones: 17, Probabilidad: 0.6538461538461539, Entropía: 0.12065058661820187
+Combinación: 1 » 1, Apariciones: 8, Probabilidad: 0.3333333333333333, Entropía: 0.1590404182398875
+Combinación: 1 » 2, Apariciones: 10, Probabilidad: 0.4166666666666667, Entropía: 0.15842135071316918
+Combinación: 1 » 3, Apariciones: 6, Probabilidad: 0.25, Entropía: 0.1505149978319906
+Entropía Total: 0.8513838974319191
+-------------------------------------------------
+Arbol: Survived » Pclass » Sex
+Combinación: 0 » 1 » female, Apariciones: 0, Probabilidad: 0, Entropía: 0
+Combinación: 0 » 1 » male, Apariciones: 5, Probabilidad: 1, Entropía: 0
+Combinación: 0 » 2 » female, Apariciones: 0, Probabilidad: 0, Entropía: 0
+Combinación: 0 » 2 » male, Apariciones: 4, Probabilidad: 1, Entropía: 0
+Combinación: 0 » 3 » female, Apariciones: 4, Probabilidad: 0.23529411764705882, Entropía: 0.1478562188353674
+Combinación: 0 » 3 » male, Apariciones: 13, Probabilidad: 0.7647058823529411, Entropía: 0.0890924939958049
+Combinación: 1 » 1 » female, Apariciones: 2, Probabilidad: 0.25, Entropía: 0.1505149978319906
+Combinación: 1 » 1 » male, Apariciones: 6, Probabilidad: 0.75, Entropía: 0.09370405245622496
+Combinación: 1 » 2 » female, Apariciones: 10, Probabilidad: 1, Entropía: 0
+Combinación: 1 » 2 » male, Apariciones: 0, Probabilidad: 0, Entropía: 0
+Combinación: 1 » 3 » female, Apariciones: 2, Probabilidad: 0.3333333333333333, Entropía: 0.1590404182398875
+Combinación: 1 » 3 » male, Apariciones: 4, Probabilidad: 0.6666666666666666, Entropía: 0.1173941727037875
+Entropía Total: 0.7576023540630628
+-------------------------------------------------
+Arbol: Survived » Pclass » Sex » Embarked
+Combinación: 0 » 1 » female » C, Apariciones: 0, Probabilidad: 0, Entropía: 0
+Combinación: 0 » 1 » female » Q, Apariciones: 0, Probabilidad: 0, Entropía: 0
+Combinación: 0 » 1 » female » S, Apariciones: 0, Probabilidad: 0, Entropía: 0
+Combinación: 0 » 1 » male » C, Apariciones: 1, Probabilidad: 0.2, Entropía: 0.13979400086720375
+Combinación: 0 » 1 » male » Q, Apariciones: 0, Probabilidad: 0, Entropía: 0
+Combinación: 0 » 1 » male » S, Apariciones: 4, Probabilidad: 0.8, Entropía: 0.07752801040644512
+Combinación: 0 » 2 » female » C, Apariciones: 0, Probabilidad: 0, Entropía: 0
+Combinación: 0 » 2 » female » Q, Apariciones: 0, Probabilidad: 0, Entropía: 0
+Combinación: 0 » 2 » female » S, Apariciones: 0, Probabilidad: 0, Entropía: 0
+Combinación: 0 » 2 » male » C, Apariciones: 0, Probabilidad: 0, Entropía: 0
+Combinación: 0 » 2 » male » Q, Apariciones: 0, Probabilidad: 0, Entropía: 0
+Combinación: 0 » 2 » male » S, Apariciones: 4, Probabilidad: 1, Entropía: 0
+Combinación: 0 » 3 » female » C, Apariciones: 0, Probabilidad: 0, Entropía: 0
+Combinación: 0 » 3 » female » Q, Apariciones: 0, Probabilidad: 0, Entropía: 0
+Combinación: 0 » 3 » female » S, Apariciones: 4, Probabilidad: 1, Entropía: 0
+Combinación: 0 » 3 » male » C, Apariciones: 1, Probabilidad: 0.07692307692307693, Entropía: 0.08568795017744898
+Combinación: 0 » 3 » male » Q, Apariciones: 3, Probabilidad: 0.23076923076923078, Entropía: 0.14695894559704023
+Combinación: 0 » 3 » male » S, Apariciones: 9, Probabilidad: 0.6923076923076923, Entropía: 0.11056212198520055
+Combinación: 1 » 1 » female » C, Apariciones: 0, Probabilidad: 0, Entropía: 0
+Combinación: 1 » 1 » female » Q, Apariciones: 0, Probabilidad: 0, Entropía: 0
+Combinación: 1 » 1 » female » S, Apariciones: 2, Probabilidad: 1, Entropía: 0
+Combinación: 1 » 1 » male » C, Apariciones: 1, Probabilidad: 0.16666666666666666, Entropía: 0.1296918750639406
+Combinación: 1 » 1 » male » Q, Apariciones: 0, Probabilidad: 0, Entropía: 0
+Combinación: 1 » 1 » male » S, Apariciones: 5, Probabilidad: 0.8333333333333334, Entropía: 0.06598437170635402
+Combinación: 1 » 2 » female » C, Apariciones: 0, Probabilidad: 0, Entropía: 0
+Combinación: 1 » 2 » female » Q, Apariciones: 0, Probabilidad: 0, Entropía: 0
+Combinación: 1 » 2 » female » S, Apariciones: 10, Probabilidad: 1, Entropía: 0
+Combinación: 1 » 2 » male » C, Apariciones: 0, Probabilidad: 0, Entropía: 0
+Combinación: 1 » 2 » male » Q, Apariciones: 0, Probabilidad: 0, Entropía: 0
+Combinación: 1 » 2 » male » S, Apariciones: 0, Probabilidad: 0, Entropía: 0
+Combinación: 1 » 3 » female » C, Apariciones: 1, Probabilidad: 0.5, Entropía: 0.1505149978319906
+Combinación: 1 » 3 » female » Q, Apariciones: 0, Probabilidad: 0, Entropía: 0
+Combinación: 1 » 3 » female » S, Apariciones: 1, Probabilidad: 0.5, Entropía: 0.1505149978319906
+Combinación: 1 » 3 » male » C, Apariciones: 1, Probabilidad: 0.25, Entropía: 0.1505149978319906
+Combinación: 1 » 3 » male » Q, Apariciones: 0, Probabilidad: 0, Entropía: 0
+Combinación: 1 » 3 » male » S, Apariciones: 3, Probabilidad: 0.75, Entropía: 0.09370405245622496
+Entropía Total: 1.30145632175583
+-------------------------------------------------
+Arbol: Survived » Pclass » Embarked
+Combinación: 0 » 1 » C, Apariciones: 1, Probabilidad: 0.2, Entropía: 0.13979400086720375
+Combinación: 0 » 1 » Q, Apariciones: 0, Probabilidad: 0, Entropía: 0
+Combinación: 0 » 1 » S, Apariciones: 4, Probabilidad: 0.8, Entropía: 0.07752801040644512
+Combinación: 0 » 2 » C, Apariciones: 0, Probabilidad: 0, Entropía: 0
+Combinación: 0 » 2 » Q, Apariciones: 0, Probabilidad: 0, Entropía: 0
+Combinación: 0 » 2 » S, Apariciones: 4, Probabilidad: 1, Entropía: 0
+Combinación: 0 » 3 » C, Apariciones: 1, Probabilidad: 0.058823529411764705, Entropía: 0.07237934831636905
+Combinación: 0 » 3 » Q, Apariciones: 3, Probabilidad: 0.17647058823529413, Entropía: 0.13294017646916675
+Combinación: 0 » 3 » S, Apariciones: 13, Probabilidad: 0.7647058823529411, Entropía: 0.0890924939958049
+Combinación: 1 » 1 » C, Apariciones: 1, Probabilidad: 0.125, Entropía: 0.11288624837399294
+Combinación: 1 » 1 » Q, Apariciones: 0, Probabilidad: 0, Entropía: 0
+Combinación: 1 » 1 » S, Apariciones: 7, Probabilidad: 0.875, Entropía: 0.05074295360547591
+Combinación: 1 » 2 » C, Apariciones: 0, Probabilidad: 0, Entropía: 0
+Combinación: 1 » 2 » Q, Apariciones: 0, Probabilidad: 0, Entropía: 0
+Combinación: 1 » 2 » S, Apariciones: 10, Probabilidad: 1, Entropía: 0
+Combinación: 1 » 3 » C, Apariciones: 2, Probabilidad: 0.3333333333333333, Entropía: 0.1590404182398875
+Combinación: 1 » 3 » Q, Apariciones: 0, Probabilidad: 0, Entropía: 0
+Combinación: 1 » 3 » S, Apariciones: 4, Probabilidad: 0.6666666666666666, Entropía: 0.1173941727037875
+Entropía Total: 0.9517978229781333
+-------------------------------------------------
+Arbol: Survived » Pclass » Embarked » Sex
+Combinación: 0 » 1 » C » female, Apariciones: 0, Probabilidad: 0, Entropía: 0
+Combinación: 0 » 1 » C » male, Apariciones: 1, Probabilidad: 1, Entropía: 0
+Combinación: 0 » 1 » Q » female, Apariciones: 0, Probabilidad: 0, Entropía: 0
+Combinación: 0 » 1 » Q » male, Apariciones: 0, Probabilidad: 0, Entropía: 0
+Combinación: 0 » 1 » S » female, Apariciones: 0, Probabilidad: 0, Entropía: 0
+Combinación: 0 » 1 » S » male, Apariciones: 4, Probabilidad: 1, Entropía: 0
+Combinación: 0 » 2 » C » female, Apariciones: 0, Probabilidad: 0, Entropía: 0
+Combinación: 0 » 2 » C » male, Apariciones: 0, Probabilidad: 0, Entropía: 0
+Combinación: 0 » 2 » Q » female, Apariciones: 0, Probabilidad: 0, Entropía: 0
+Combinación: 0 » 2 » Q » male, Apariciones: 0, Probabilidad: 0, Entropía: 0
+Combinación: 0 » 2 » S » female, Apariciones: 0, Probabilidad: 0, Entropía: 0
+Combinación: 0 » 2 » S » male, Apariciones: 4, Probabilidad: 1, Entropía: 0
+Combinación: 0 » 3 » C » female, Apariciones: 0, Probabilidad: 0, Entropía: 0
+Combinación: 0 » 3 » C » male, Apariciones: 1, Probabilidad: 1, Entropía: 0
+Combinación: 0 » 3 » Q » female, Apariciones: 0, Probabilidad: 0, Entropía: 0
+Combinación: 0 » 3 » Q » male, Apariciones: 3, Probabilidad: 1, Entropía: 0
+Combinación: 0 » 3 » S » female, Apariciones: 4, Probabilidad: 0.3076923076923077, Entropía: 0.15750257260888442
+Combinación: 0 » 3 » S » male, Apariciones: 9, Probabilidad: 0.6923076923076923, Entropía: 0.11056212198520055
+Combinación: 1 » 1 » C » female, Apariciones: 0, Probabilidad: 0, Entropía: 0
+Combinación: 1 » 1 » C » male, Apariciones: 1, Probabilidad: 1, Entropía: 0
+Combinación: 1 » 1 » Q » female, Apariciones: 0, Probabilidad: 0, Entropía: 0
+Combinación: 1 » 1 » Q » male, Apariciones: 0, Probabilidad: 0, Entropía: 0
+Combinación: 1 » 1 » S » female, Apariciones: 2, Probabilidad: 0.2857142857142857, Entropía: 0.15544801267150732
+Combinación: 1 » 1 » S » male, Apariciones: 5, Probabilidad: 0.7142857142857143, Entropía: 0.10437716834159858
+Combinación: 1 » 2 » C » female, Apariciones: 0, Probabilidad: 0, Entropía: 0
+Combinación: 1 » 2 » C » male, Apariciones: 0, Probabilidad: 0, Entropía: 0
+Combinación: 1 » 2 » Q » female, Apariciones: 0, Probabilidad: 0, Entropía: 0
+Combinación: 1 » 2 » Q » male, Apariciones: 0, Probabilidad: 0, Entropía: 0
+Combinación: 1 » 2 » S » female, Apariciones: 10, Probabilidad: 1, Entropía: 0
+Combinación: 1 » 2 » S » male, Apariciones: 0, Probabilidad: 0, Entropía: 0
+Combinación: 1 » 3 » C » female, Apariciones: 1, Probabilidad: 0.5, Entropía: 0.1505149978319906
+Combinación: 1 » 3 » C » male, Apariciones: 1, Probabilidad: 0.5, Entropía: 0.1505149978319906
+Combinación: 1 » 3 » Q » female, Apariciones: 0, Probabilidad: 0, Entropía: 0
+Combinación: 1 » 3 » Q » male, Apariciones: 0, Probabilidad: 0, Entropía: 0
+Combinación: 1 » 3 » S » female, Apariciones: 1, Probabilidad: 0.25, Entropía: 0.1505149978319906
+Combinación: 1 » 3 » S » male, Apariciones: 3, Probabilidad: 0.75, Entropía: 0.09370405245622496
+Entropía Total: 1.0731389215593878
+-------------------------------------------------
+Arbol: Survived » Sex
+Combinación: 0 » female, Apariciones: 4, Probabilidad: 0.15384615384615385, Entropía: 0.1250635933296701
+Combinación: 0 » male, Apariciones: 22, Probabilidad: 0.8461538461538461, Entropía: 0.06138902604882531
+Combinación: 1 » female, Apariciones: 14, Probabilidad: 0.5833333333333334, Entropía: 0.13654853685279797
+Combinación: 1 » male, Apariciones: 10, Probabilidad: 0.4166666666666667, Entropía: 0.15842135071316918
+Entropía Total: 0.48142250694446254
+-------------------------------------------------
+Arbol: Survived » Sex » Pclass
+Combinación: 0 » female » 1, Apariciones: 0, Probabilidad: 0, Entropía: 0
+Combinación: 0 » female » 2, Apariciones: 0, Probabilidad: 0, Entropía: 0
+Combinación: 0 » female » 3, Apariciones: 4, Probabilidad: 1, Entropía: 0
+Combinación: 0 » male » 1, Apariciones: 5, Probabilidad: 0.22727272727272727, Entropía: 0.14623924465595167
+Combinación: 0 » male » 2, Apariciones: 4, Probabilidad: 0.18181818181818182, Entropía: 0.13461139808986253
+Combinación: 0 » male » 3, Apariciones: 13, Probabilidad: 0.5909090909090909, Entropía: 0.1350105123045365
+Combinación: 1 » female » 1, Apariciones: 2, Probabilidad: 0.14285714285714285, Entropía: 0.12072829143060812
+Combinación: 1 » female » 2, Apariciones: 10, Probabilidad: 0.7142857142857143, Entropía: 0.10437716834159858
+Combinación: 1 » female » 3, Apariciones: 2, Probabilidad: 0.14285714285714285, Entropía: 0.12072829143060812
+Combinación: 1 » male » 1, Apariciones: 6, Probabilidad: 0.6, Entropía: 0.1331092497698138
+Combinación: 1 » male » 2, Apariciones: 0, Probabilidad: 0, Entropía: 0
+Combinación: 1 » male » 3, Apariciones: 4, Probabilidad: 0.4, Entropía: 0.15917600346881505
+Entropía Total: 1.0539801594917944
+-------------------------------------------------
+Arbol: Survived » Sex » Pclass » Embarked
+Combinación: 0 » female » 1 » C, Apariciones: 0, Probabilidad: 0, Entropía: 0
+Combinación: 0 » female » 1 » Q, Apariciones: 0, Probabilidad: 0, Entropía: 0
+Combinación: 0 » female » 1 » S, Apariciones: 0, Probabilidad: 0, Entropía: 0
+Combinación: 0 » female » 2 » C, Apariciones: 0, Probabilidad: 0, Entropía: 0
+Combinación: 0 » female » 2 » Q, Apariciones: 0, Probabilidad: 0, Entropía: 0
+Combinación: 0 » female » 2 » S, Apariciones: 0, Probabilidad: 0, Entropía: 0
+Combinación: 0 » female » 3 » C, Apariciones: 0, Probabilidad: 0, Entropía: 0
+Combinación: 0 » female » 3 » Q, Apariciones: 0, Probabilidad: 0, Entropía: 0
+Combinación: 0 » female » 3 » S, Apariciones: 4, Probabilidad: 1, Entropía: 0
+Combinación: 0 » male » 1 » C, Apariciones: 1, Probabilidad: 0.2, Entropía: 0.13979400086720375
+Combinación: 0 » male » 1 » Q, Apariciones: 0, Probabilidad: 0, Entropía: 0
+Combinación: 0 » male » 1 » S, Apariciones: 4, Probabilidad: 0.8, Entropía: 0.07752801040644512
+Combinación: 0 » male » 2 » C, Apariciones: 0, Probabilidad: 0, Entropía: 0
+Combinación: 0 » male » 2 » Q, Apariciones: 0, Probabilidad: 0, Entropía: 0
+Combinación: 0 » male » 2 » S, Apariciones: 4, Probabilidad: 1, Entropía: 0
+Combinación: 0 » male » 3 » C, Apariciones: 1, Probabilidad: 0.07692307692307693, Entropía: 0.08568795017744898
+Combinación: 0 » male » 3 » Q, Apariciones: 3, Probabilidad: 0.23076923076923078, Entropía: 0.14695894559704023
+Combinación: 0 » male » 3 » S, Apariciones: 9, Probabilidad: 0.6923076923076923, Entropía: 0.11056212198520055
+Combinación: 1 » female » 1 » C, Apariciones: 0, Probabilidad: 0, Entropía: 0
+Combinación: 1 » female » 1 » Q, Apariciones: 0, Probabilidad: 0, Entropía: 0
+Combinación: 1 » female » 1 » S, Apariciones: 2, Probabilidad: 1, Entropía: 0
+Combinación: 1 » female » 2 » C, Apariciones: 0, Probabilidad: 0, Entropía: 0
+Combinación: 1 » female » 2 » Q, Apariciones: 0, Probabilidad: 0, Entropía: 0
+Combinación: 1 » female » 2 » S, Apariciones: 10, Probabilidad: 1, Entropía: 0
+Combinación: 1 » female » 3 » C, Apariciones: 1, Probabilidad: 0.5, Entropía: 0.1505149978319906
+Combinación: 1 » female » 3 » Q, Apariciones: 0, Probabilidad: 0, Entropía: 0
+Combinación: 1 » female » 3 » S, Apariciones: 1, Probabilidad: 0.5, Entropía: 0.1505149978319906
+Combinación: 1 » male » 1 » C, Apariciones: 1, Probabilidad: 0.16666666666666666, Entropía: 0.1296918750639406
+Combinación: 1 » male » 1 » Q, Apariciones: 0, Probabilidad: 0, Entropía: 0
+Combinación: 1 » male » 1 » S, Apariciones: 5, Probabilidad: 0.8333333333333334, Entropía: 0.06598437170635402
+Combinación: 1 » male » 2 » C, Apariciones: 0, Probabilidad: 0, Entropía: 0
+Combinación: 1 » male » 2 » Q, Apariciones: 0, Probabilidad: 0, Entropía: 0
+Combinación: 1 » male » 2 » S, Apariciones: 0, Probabilidad: 0, Entropía: 0
+Combinación: 1 » male » 3 » C, Apariciones: 1, Probabilidad: 0.25, Entropía: 0.1505149978319906
+Combinación: 1 » male » 3 » Q, Apariciones: 0, Probabilidad: 0, Entropía: 0
+Combinación: 1 » male » 3 » S, Apariciones: 3, Probabilidad: 0.75, Entropía: 0.09370405245622496
+Entropía Total: 1.30145632175583
+-------------------------------------------------
+Arbol: Survived » Sex » Embarked
+Combinación: 0 » female » C, Apariciones: 0, Probabilidad: 0, Entropía: 0
+Combinación: 0 » female » Q, Apariciones: 0, Probabilidad: 0, Entropía: 0
+Combinación: 0 » female » S, Apariciones: 4, Probabilidad: 1, Entropía: 0
+Combinación: 0 » male » C, Apariciones: 2, Probabilidad: 0.09090909090909091, Entropía: 0.09467206228711136
+Combinación: 0 » male » Q, Apariciones: 3, Probabilidad: 0.13636363636363635, Entropía: 0.11799564901398324
+Combinación: 0 » male » S, Apariciones: 17, Probabilidad: 0.7727272727272727, Entropía: 0.0865251777521295
+Combinación: 1 » female » C, Apariciones: 1, Probabilidad: 0.07142857142857142, Entropía: 0.08186628826273129
+Combinación: 1 » female » Q, Apariciones: 0, Probabilidad: 0, Entropía: 0
+Combinación: 1 » female » S, Apariciones: 13, Probabilidad: 0.9285714285714286, Entropía: 0.029885777416301156
+Combinación: 1 » male » C, Apariciones: 2, Probabilidad: 0.2, Entropía: 0.13979400086720375
+Combinación: 1 » male » Q, Apariciones: 0, Probabilidad: 0, Entropía: 0
+Combinación: 1 » male » S, Apariciones: 8, Probabilidad: 0.8, Entropía: 0.07752801040644512
+Entropía Total: 0.6282669660059054
+-------------------------------------------------
+Arbol: Survived » Sex » Embarked » Pclass
+Combinación: 0 » female » C » 1, Apariciones: 0, Probabilidad: 0, Entropía: 0
+Combinación: 0 » female » C » 2, Apariciones: 0, Probabilidad: 0, Entropía: 0
+Combinación: 0 » female » C » 3, Apariciones: 0, Probabilidad: 0, Entropía: 0
+Combinación: 0 » female » Q » 1, Apariciones: 0, Probabilidad: 0, Entropía: 0
+Combinación: 0 » female » Q » 2, Apariciones: 0, Probabilidad: 0, Entropía: 0
+Combinación: 0 » female » Q » 3, Apariciones: 0, Probabilidad: 0, Entropía: 0
+Combinación: 0 » female » S » 1, Apariciones: 0, Probabilidad: 0, Entropía: 0
+Combinación: 0 » female » S » 2, Apariciones: 0, Probabilidad: 0, Entropía: 0
+Combinación: 0 » female » S » 3, Apariciones: 4, Probabilidad: 1, Entropía: 0
+Combinación: 0 » male » C » 1, Apariciones: 1, Probabilidad: 0.5, Entropía: 0.1505149978319906
+Combinación: 0 » male » C » 2, Apariciones: 0, Probabilidad: 0, Entropía: 0
+Combinación: 0 » male » C » 3, Apariciones: 1, Probabilidad: 0.5, Entropía: 0.1505149978319906
+Combinación: 0 » male » Q » 1, Apariciones: 0, Probabilidad: 0, Entropía: 0
+Combinación: 0 » male » Q » 2, Apariciones: 0, Probabilidad: 0, Entropía: 0
+Combinación: 0 » male » Q » 3, Apariciones: 3, Probabilidad: 1, Entropía: 0
+Combinación: 0 » male » S » 1, Apariciones: 4, Probabilidad: 0.23529411764705882, Entropía: 0.1478562188353674
+Combinación: 0 » male » S » 2, Apariciones: 4, Probabilidad: 0.23529411764705882, Entropía: 0.1478562188353674
+Combinación: 0 » male » S » 3, Apariciones: 9, Probabilidad: 0.5294117647058824, Entropía: 0.14622692396767892
+Combinación: 1 » female » C » 1, Apariciones: 0, Probabilidad: 0, Entropía: 0
+Combinación: 1 » female » C » 2, Apariciones: 0, Probabilidad: 0, Entropía: 0
+Combinación: 1 » female » C » 3, Apariciones: 1, Probabilidad: 1, Entropía: 0
+Combinación: 1 » female » Q » 1, Apariciones: 0, Probabilidad: 0, Entropía: 0
+Combinación: 1 » female » Q » 2, Apariciones: 0, Probabilidad: 0, Entropía: 0
+Combinación: 1 » female » Q » 3, Apariciones: 0, Probabilidad: 0, Entropía: 0
+Combinación: 1 » female » S » 1, Apariciones: 2, Probabilidad: 0.15384615384615385, Entropía: 0.1250635933296701
+Combinación: 1 » female » S » 2, Apariciones: 10, Probabilidad: 0.7692307692307693, Entropía: 0.08764873254372058
+Combinación: 1 » female » S » 3, Apariciones: 1, Probabilidad: 0.07692307692307693, Entropía: 0.08568795017744898
+Combinación: 1 » male » C » 1, Apariciones: 1, Probabilidad: 0.5, Entropía: 0.1505149978319906
+Combinación: 1 » male » C » 2, Apariciones: 0, Probabilidad: 0, Entropía: 0
+Combinación: 1 » male » C » 3, Apariciones: 1, Probabilidad: 0.5, Entropía: 0.1505149978319906
+Combinación: 1 » male » Q » 1, Apariciones: 0, Probabilidad: 0, Entropía: 0
+Combinación: 1 » male » Q » 2, Apariciones: 0, Probabilidad: 0, Entropía: 0
+Combinación: 1 » male » Q » 3, Apariciones: 0, Probabilidad: 0, Entropía: 0
+Combinación: 1 » male » S » 1, Apariciones: 5, Probabilidad: 0.625, Entropía: 0.127574989159953
+Combinación: 1 » male » S » 2, Apariciones: 0, Probabilidad: 0, Entropía: 0
+Combinación: 1 » male » S » 3, Apariciones: 3, Probabilidad: 0.375, Entropía: 0.15973827460210543
+Entropía Total: 1.6297128927792741
+-------------------------------------------------
+Arbol: Survived » Embarked
+Combinación: 0 » C, Apariciones: 2, Probabilidad: 0.07692307692307693, Entropía: 0.08568795017744898
+Combinación: 0 » Q, Apariciones: 3, Probabilidad: 0.11538461538461539, Entropía: 0.10821370306744102
+Combinación: 0 » S, Apariciones: 21, Probabilidad: 0.8076923076923077, Entropía: 0.07491673530672587
+Combinación: 1 » C, Apariciones: 3, Probabilidad: 0.125, Entropía: 0.11288624837399294
+Combinación: 1 » Q, Apariciones: 0, Probabilidad: 0, Entropía: 0
+Combinación: 1 » S, Apariciones: 21, Probabilidad: 0.875, Entropía: 0.05074295360547591
+Entropía Total: 0.4324475905310848
+-------------------------------------------------
+Arbol: Survived » Embarked » Pclass
+Combinación: 0 » C » 1, Apariciones: 1, Probabilidad: 0.5, Entropía: 0.1505149978319906
+Combinación: 0 » C » 2, Apariciones: 0, Probabilidad: 0, Entropía: 0
+Combinación: 0 » C » 3, Apariciones: 1, Probabilidad: 0.5, Entropía: 0.1505149978319906
+Combinación: 0 » Q » 1, Apariciones: 0, Probabilidad: 0, Entropía: 0
+Combinación: 0 » Q » 2, Apariciones: 0, Probabilidad: 0, Entropía: 0
+Combinación: 0 » Q » 3, Apariciones: 3, Probabilidad: 1, Entropía: 0
+Combinación: 0 » S » 1, Apariciones: 4, Probabilidad: 0.19047619047619047, Entropía: 0.13717320064875368
+Combinación: 0 » S » 2, Apariciones: 4, Probabilidad: 0.19047619047619047, Entropía: 0.13717320064875368
+Combinación: 0 » S » 3, Apariciones: 13, Probabilidad: 0.6190476190476191, Entropía: 0.1289327262643844
+Combinación: 1 » C » 1, Apariciones: 1, Probabilidad: 0.3333333333333333, Entropía: 0.1590404182398875
+Combinación: 1 » C » 2, Apariciones: 0, Probabilidad: 0, Entropía: 0
+Combinación: 1 » C » 3, Apariciones: 2, Probabilidad: 0.6666666666666666, Entropía: 0.1173941727037875
+Combinación: 1 » Q » 1, Apariciones: 0, Probabilidad: 0, Entropía: 0
+Combinación: 1 » Q » 2, Apariciones: 0, Probabilidad: 0, Entropía: 0
+Combinación: 1 » Q » 3, Apariciones: 0, Probabilidad: 0, Entropía: 0
+Combinación: 1 » S » 1, Apariciones: 7, Probabilidad: 0.3333333333333333, Entropía: 0.1590404182398875
+Combinación: 1 » S » 2, Apariciones: 10, Probabilidad: 0.47619047619047616, Entropía: 0.1534377593971044
+Combinación: 1 » S » 3, Apariciones: 4, Probabilidad: 0.19047619047619047, Entropía: 0.13717320064875368
+Entropía Total: 1.4303950924552933
+-------------------------------------------------
+Arbol: Survived » Embarked » Pclass » Sex
+Combinación: 0 » C » 1 » female, Apariciones: 0, Probabilidad: 0, Entropía: 0
+Combinación: 0 » C » 1 » male, Apariciones: 1, Probabilidad: 1, Entropía: 0
+Combinación: 0 » C » 2 » female, Apariciones: 0, Probabilidad: 0, Entropía: 0
+Combinación: 0 » C » 2 » male, Apariciones: 0, Probabilidad: 0, Entropía: 0
+Combinación: 0 » C » 3 » female, Apariciones: 0, Probabilidad: 0, Entropía: 0
+Combinación: 0 » C » 3 » male, Apariciones: 1, Probabilidad: 1, Entropía: 0
+Combinación: 0 » Q » 1 » female, Apariciones: 0, Probabilidad: 0, Entropía: 0
+Combinación: 0 » Q » 1 » male, Apariciones: 0, Probabilidad: 0, Entropía: 0
+Combinación: 0 » Q » 2 » female, Apariciones: 0, Probabilidad: 0, Entropía: 0
+Combinación: 0 » Q » 2 » male, Apariciones: 0, Probabilidad: 0, Entropía: 0
+Combinación: 0 » Q » 3 » female, Apariciones: 0, Probabilidad: 0, Entropía: 0
+Combinación: 0 » Q » 3 » male, Apariciones: 3, Probabilidad: 1, Entropía: 0
+Combinación: 0 » S » 1 » female, Apariciones: 0, Probabilidad: 0, Entropía: 0
+Combinación: 0 » S » 1 » male, Apariciones: 4, Probabilidad: 1, Entropía: 0
+Combinación: 0 » S » 2 » female, Apariciones: 0, Probabilidad: 0, Entropía: 0
+Combinación: 0 » S » 2 » male, Apariciones: 4, Probabilidad: 1, Entropía: 0
+Combinación: 0 » S » 3 » female, Apariciones: 4, Probabilidad: 0.3076923076923077, Entropía: 0.15750257260888442
+Combinación: 0 » S » 3 » male, Apariciones: 9, Probabilidad: 0.6923076923076923, Entropía: 0.11056212198520055
+Combinación: 1 » C » 1 » female, Apariciones: 0, Probabilidad: 0, Entropía: 0
+Combinación: 1 » C » 1 » male, Apariciones: 1, Probabilidad: 1, Entropía: 0
+Combinación: 1 » C » 2 » female, Apariciones: 0, Probabilidad: 0, Entropía: 0
+Combinación: 1 » C » 2 » male, Apariciones: 0, Probabilidad: 0, Entropía: 0
+Combinación: 1 » C » 3 » female, Apariciones: 1, Probabilidad: 0.5, Entropía: 0.1505149978319906
+Combinación: 1 » C » 3 » male, Apariciones: 1, Probabilidad: 0.5, Entropía: 0.1505149978319906
+Combinación: 1 » Q » 1 » female, Apariciones: 0, Probabilidad: 0, Entropía: 0
+Combinación: 1 » Q » 1 » male, Apariciones: 0, Probabilidad: 0, Entropía: 0
+Combinación: 1 » Q » 2 » female, Apariciones: 0, Probabilidad: 0, Entropía: 0
+Combinación: 1 » Q » 2 » male, Apariciones: 0, Probabilidad: 0, Entropía: 0
+Combinación: 1 » Q » 3 » female, Apariciones: 0, Probabilidad: 0, Entropía: 0
+Combinación: 1 » Q » 3 » male, Apariciones: 0, Probabilidad: 0, Entropía: 0
+Combinación: 1 » S » 1 » female, Apariciones: 2, Probabilidad: 0.2857142857142857, Entropía: 0.15544801267150732
+Combinación: 1 » S » 1 » male, Apariciones: 5, Probabilidad: 0.7142857142857143, Entropía: 0.10437716834159858
+Combinación: 1 » S » 2 » female, Apariciones: 10, Probabilidad: 1, Entropía: 0
+Combinación: 1 » S » 2 » male, Apariciones: 0, Probabilidad: 0, Entropía: 0
+Combinación: 1 » S » 3 » female, Apariciones: 1, Probabilidad: 0.25, Entropía: 0.1505149978319906
+Combinación: 1 » S » 3 » male, Apariciones: 3, Probabilidad: 0.75, Entropía: 0.09370405245622496
+Entropía Total: 1.0731389215593878
+-------------------------------------------------
+Arbol: Survived » Embarked » Sex
+Combinación: 0 » C » female, Apariciones: 0, Probabilidad: 0, Entropía: 0
+Combinación: 0 » C » male, Apariciones: 2, Probabilidad: 1, Entropía: 0
+Combinación: 0 » Q » female, Apariciones: 0, Probabilidad: 0, Entropía: 0
+Combinación: 0 » Q » male, Apariciones: 3, Probabilidad: 1, Entropía: 0
+Combinación: 0 » S » female, Apariciones: 4, Probabilidad: 0.19047619047619047, Entropía: 0.13717320064875368
+Combinación: 0 » S » male, Apariciones: 17, Probabilidad: 0.8095238095238095, Entropía: 0.07429030224028432
+Combinación: 1 » C » female, Apariciones: 1, Probabilidad: 0.3333333333333333, Entropía: 0.1590404182398875
+Combinación: 1 » C » male, Apariciones: 2, Probabilidad: 0.6666666666666666, Entropía: 0.1173941727037875
+Combinación: 1 » Q » female, Apariciones: 0, Probabilidad: 0, Entropía: 0
+Combinación: 1 » Q » male, Apariciones: 0, Probabilidad: 0, Entropía: 0
+Combinación: 1 » S » female, Apariciones: 13, Probabilidad: 0.6190476190476191, Entropía: 0.1289327262643844
+Combinación: 1 » S » male, Apariciones: 8, Probabilidad: 0.38095238095238093, Entropía: 0.15966830771122884
+Entropía Total: 0.7764991278083262
+-------------------------------------------------
+Arbol: Survived » Embarked » Sex » Pclass
+Combinación: 0 » C » female » 1, Apariciones: 0, Probabilidad: 0, Entropía: 0
+Combinación: 0 » C » female » 2, Apariciones: 0, Probabilidad: 0, Entropía: 0
+Combinación: 0 » C » female » 3, Apariciones: 0, Probabilidad: 0, Entropía: 0
+Combinación: 0 » C » male » 1, Apariciones: 1, Probabilidad: 0.5, Entropía: 0.1505149978319906
+Combinación: 0 » C » male » 2, Apariciones: 0, Probabilidad: 0, Entropía: 0
+Combinación: 0 » C » male » 3, Apariciones: 1, Probabilidad: 0.5, Entropía: 0.1505149978319906
+Combinación: 0 » Q » female » 1, Apariciones: 0, Probabilidad: 0, Entropía: 0
+Combinación: 0 » Q » female » 2, Apariciones: 0, Probabilidad: 0, Entropía: 0
+Combinación: 0 » Q » female » 3, Apariciones: 0, Probabilidad: 0, Entropía: 0
+Combinación: 0 » Q » male » 1, Apariciones: 0, Probabilidad: 0, Entropía: 0
+Combinación: 0 » Q » male » 2, Apariciones: 0, Probabilidad: 0, Entropía: 0
+Combinación: 0 » Q » male » 3, Apariciones: 3, Probabilidad: 1, Entropía: 0
+Combinación: 0 » S » female » 1, Apariciones: 0, Probabilidad: 0, Entropía: 0
+Combinación: 0 » S » female » 2, Apariciones: 0, Probabilidad: 0, Entropía: 0
+Combinación: 0 » S » female » 3, Apariciones: 4, Probabilidad: 1, Entropía: 0
+Combinación: 0 » S » male » 1, Apariciones: 4, Probabilidad: 0.23529411764705882, Entropía: 0.1478562188353674
+Combinación: 0 » S » male » 2, Apariciones: 4, Probabilidad: 0.23529411764705882, Entropía: 0.1478562188353674
+Combinación: 0 » S » male » 3, Apariciones: 9, Probabilidad: 0.5294117647058824, Entropía: 0.14622692396767892
+Combinación: 1 » C » female » 1, Apariciones: 0, Probabilidad: 0, Entropía: 0
+Combinación: 1 » C » female » 2, Apariciones: 0, Probabilidad: 0, Entropía: 0
+Combinación: 1 » C » female » 3, Apariciones: 1, Probabilidad: 1, Entropía: 0
+Combinación: 1 » C » male » 1, Apariciones: 1, Probabilidad: 0.5, Entropía: 0.1505149978319906
+Combinación: 1 » C » male » 2, Apariciones: 0, Probabilidad: 0, Entropía: 0
+Combinación: 1 » C » male » 3, Apariciones: 1, Probabilidad: 0.5, Entropía: 0.1505149978319906
+Combinación: 1 » Q » female » 1, Apariciones: 0, Probabilidad: 0, Entropía: 0
+Combinación: 1 » Q » female » 2, Apariciones: 0, Probabilidad: 0, Entropía: 0
+Combinación: 1 » Q » female » 3, Apariciones: 0, Probabilidad: 0, Entropía: 0
+Combinación: 1 » Q » male » 1, Apariciones: 0, Probabilidad: 0, Entropía: 0
+Combinación: 1 » Q » male » 2, Apariciones: 0, Probabilidad: 0, Entropía: 0
+Combinación: 1 » Q » male » 3, Apariciones: 0, Probabilidad: 0, Entropía: 0
+Combinación: 1 » S » female » 1, Apariciones: 2, Probabilidad: 0.15384615384615385, Entropía: 0.1250635933296701
+Combinación: 1 » S » female » 2, Apariciones: 10, Probabilidad: 0.7692307692307693, Entropía: 0.08764873254372058
+Combinación: 1 » S » female » 3, Apariciones: 1, Probabilidad: 0.07692307692307693, Entropía: 0.08568795017744898
+Combinación: 1 » S » male » 1, Apariciones: 5, Probabilidad: 0.625, Entropía: 0.127574989159953
+Combinación: 1 » S » male » 2, Apariciones: 0, Probabilidad: 0, Entropía: 0
+Combinación: 1 » S » male » 3, Apariciones: 3, Probabilidad: 0.375, Entropía: 0.15973827460210543
+Entropía Total: 1.6297128927792741
+-------------------------------------------------
+Arbol: Pclass
+Combinación: 1, Apariciones: 13, Probabilidad: 0.26, Entropía: 0.15210692952758734
+Combinación: 2, Apariciones: 14, Probabilidad: 0.28, Entropía: 0.15479575122417863
+Combinación: 3, Apariciones: 23, Probabilidad: 0.46, Entropía: 0.15513139742647591
+Entropía Total: 0.4620340781782419
+-------------------------------------------------
+Arbol: Pclass » Survived
+Combinación: 1 » 0, Apariciones: 5, Probabilidad: 0.38461538461538464, Entropía: 0.15960513383493
+Combinación: 1 » 1, Apariciones: 8, Probabilidad: 0.6153846153846154, Entropía: 0.12975591711685733
+Combinación: 2 » 0, Apariciones: 4, Probabilidad: 0.2857142857142857, Entropía: 0.15544801267150732
+Combinación: 2 » 1, Apariciones: 10, Probabilidad: 0.7142857142857143, Entropía: 0.10437716834159858
+Combinación: 3 » 0, Apariciones: 17, Probabilidad: 0.7391304347826086, Entropía: 0.09703224125514881
+Combinación: 3 » 1, Apariciones: 6, Probabilidad: 0.2608695652173913, Entropía: 0.15223737016537806
+Entropía Total: 0.7984558433854201
+-------------------------------------------------
+Arbol: Pclass » Survived » Sex
+Combinación: 1 » 0 » female, Apariciones: 0, Probabilidad: 0, Entropía: 0
+Combinación: 1 » 0 » male, Apariciones: 5, Probabilidad: 1, Entropía: 0
+Combinación: 1 » 1 » female, Apariciones: 2, Probabilidad: 0.25, Entropía: 0.1505149978319906
+Combinación: 1 » 1 » male, Apariciones: 6, Probabilidad: 0.75, Entropía: 0.09370405245622496
+Combinación: 2 » 0 » female, Apariciones: 0, Probabilidad: 0, Entropía: 0
+Combinación: 2 » 0 » male, Apariciones: 4, Probabilidad: 1, Entropía: 0
+Combinación: 2 » 1 » female, Apariciones: 10, Probabilidad: 1, Entropía: 0
+Combinación: 2 » 1 » male, Apariciones: 0, Probabilidad: 0, Entropía: 0
+Combinación: 3 » 0 » female, Apariciones: 4, Probabilidad: 0.23529411764705882, Entropía: 0.1478562188353674
+Combinación: 3 » 0 » male, Apariciones: 13, Probabilidad: 0.7647058823529411, Entropía: 0.0890924939958049
+Combinación: 3 » 1 » female, Apariciones: 2, Probabilidad: 0.3333333333333333, Entropía: 0.1590404182398875
+Combinación: 3 » 1 » male, Apariciones: 4, Probabilidad: 0.6666666666666666, Entropía: 0.1173941727037875
+Entropía Total: 0.7576023540630628
+-------------------------------------------------
+Arbol: Pclass » Survived » Sex » Embarked
+Combinación: 1 » 0 » female » C, Apariciones: 0, Probabilidad: 0, Entropía: 0
+Combinación: 1 » 0 » female » Q, Apariciones: 0, Probabilidad: 0, Entropía: 0
+Combinación: 1 » 0 » female » S, Apariciones: 0, Probabilidad: 0, Entropía: 0
+Combinación: 1 » 0 » male » C, Apariciones: 1, Probabilidad: 0.2, Entropía: 0.13979400086720375
+Combinación: 1 » 0 » male » Q, Apariciones: 0, Probabilidad: 0, Entropía: 0
+Combinación: 1 » 0 » male » S, Apariciones: 4, Probabilidad: 0.8, Entropía: 0.07752801040644512
+Combinación: 1 » 1 » female » C, Apariciones: 0, Probabilidad: 0, Entropía: 0
+Combinación: 1 » 1 » female » Q, Apariciones: 0, Probabilidad: 0, Entropía: 0
+Combinación: 1 » 1 » female » S, Apariciones: 2, Probabilidad: 1, Entropía: 0
+Combinación: 1 » 1 » male » C, Apariciones: 1, Probabilidad: 0.16666666666666666, Entropía: 0.1296918750639406
+Combinación: 1 » 1 » male » Q, Apariciones: 0, Probabilidad: 0, Entropía: 0
+Combinación: 1 » 1 » male » S, Apariciones: 5, Probabilidad: 0.8333333333333334, Entropía: 0.06598437170635402
+Combinación: 2 » 0 » female » C, Apariciones: 0, Probabilidad: 0, Entropía: 0
+Combinación: 2 » 0 » female » Q, Apariciones: 0, Probabilidad: 0, Entropía: 0
+Combinación: 2 » 0 » female » S, Apariciones: 0, Probabilidad: 0, Entropía: 0
+Combinación: 2 » 0 » male » C, Apariciones: 0, Probabilidad: 0, Entropía: 0
+Combinación: 2 » 0 » male » Q, Apariciones: 0, Probabilidad: 0, Entropía: 0
+Combinación: 2 » 0 » male » S, Apariciones: 4, Probabilidad: 1, Entropía: 0
+Combinación: 2 » 1 » female » C, Apariciones: 0, Probabilidad: 0, Entropía: 0
+Combinación: 2 » 1 » female » Q, Apariciones: 0, Probabilidad: 0, Entropía: 0
+Combinación: 2 » 1 » female » S, Apariciones: 10, Probabilidad: 1, Entropía: 0
+Combinación: 2 » 1 » male » C, Apariciones: 0, Probabilidad: 0, Entropía: 0
+Combinación: 2 » 1 » male » Q, Apariciones: 0, Probabilidad: 0, Entropía: 0
+Combinación: 2 » 1 » male » S, Apariciones: 0, Probabilidad: 0, Entropía: 0
+Combinación: 3 » 0 » female » C, Apariciones: 0, Probabilidad: 0, Entropía: 0
+Combinación: 3 » 0 » female » Q, Apariciones: 0, Probabilidad: 0, Entropía: 0
+Combinación: 3 » 0 » female » S, Apariciones: 4, Probabilidad: 1, Entropía: 0
+Combinación: 3 » 0 » male » C, Apariciones: 1, Probabilidad: 0.07692307692307693, Entropía: 0.08568795017744898
+Combinación: 3 » 0 » male » Q, Apariciones: 3, Probabilidad: 0.23076923076923078, Entropía: 0.14695894559704023
+Combinación: 3 » 0 » male » S, Apariciones: 9, Probabilidad: 0.6923076923076923, Entropía: 0.11056212198520055
+Combinación: 3 » 1 » female » C, Apariciones: 1, Probabilidad: 0.5, Entropía: 0.1505149978319906
+Combinación: 3 » 1 » female » Q, Apariciones: 0, Probabilidad: 0, Entropía: 0
+Combinación: 3 » 1 » female » S, Apariciones: 1, Probabilidad: 0.5, Entropía: 0.1505149978319906
+Combinación: 3 » 1 » male » C, Apariciones: 1, Probabilidad: 0.25, Entropía: 0.1505149978319906
+Combinación: 3 » 1 » male » Q, Apariciones: 0, Probabilidad: 0, Entropía: 0
+Combinación: 3 » 1 » male » S, Apariciones: 3, Probabilidad: 0.75, Entropía: 0.09370405245622496
+Entropía Total: 1.30145632175583
+-------------------------------------------------
+Arbol: Pclass » Survived » Embarked
+Combinación: 1 » 0 » C, Apariciones: 1, Probabilidad: 0.2, Entropía: 0.13979400086720375
+Combinación: 1 » 0 » Q, Apariciones: 0, Probabilidad: 0, Entropía: 0
+Combinación: 1 » 0 » S, Apariciones: 4, Probabilidad: 0.8, Entropía: 0.07752801040644512
+Combinación: 1 » 1 » C, Apariciones: 1, Probabilidad: 0.125, Entropía: 0.11288624837399294
+Combinación: 1 » 1 » Q, Apariciones: 0, Probabilidad: 0, Entropía: 0
+Combinación: 1 » 1 » S, Apariciones: 7, Probabilidad: 0.875, Entropía: 0.05074295360547591
+Combinación: 2 » 0 » C, Apariciones: 0, Probabilidad: 0, Entropía: 0
+Combinación: 2 » 0 » Q, Apariciones: 0, Probabilidad: 0, Entropía: 0
+Combinación: 2 » 0 » S, Apariciones: 4, Probabilidad: 1, Entropía: 0
+Combinación: 2 » 1 » C, Apariciones: 0, Probabilidad: 0, Entropía: 0
+Combinación: 2 » 1 » Q, Apariciones: 0, Probabilidad: 0, Entropía: 0
+Combinación: 2 » 1 » S, Apariciones: 10, Probabilidad: 1, Entropía: 0
+Combinación: 3 » 0 » C, Apariciones: 1, Probabilidad: 0.058823529411764705, Entropía: 0.07237934831636905
+Combinación: 3 » 0 » Q, Apariciones: 3, Probabilidad: 0.17647058823529413, Entropía: 0.13294017646916675
+Combinación: 3 » 0 » S, Apariciones: 13, Probabilidad: 0.7647058823529411, Entropía: 0.0890924939958049
+Combinación: 3 » 1 » C, Apariciones: 2, Probabilidad: 0.3333333333333333, Entropía: 0.1590404182398875
+Combinación: 3 » 1 » Q, Apariciones: 0, Probabilidad: 0, Entropía: 0
+Combinación: 3 » 1 » S, Apariciones: 4, Probabilidad: 0.6666666666666666, Entropía: 0.1173941727037875
+Entropía Total: 0.9517978229781333
+-------------------------------------------------
+Arbol: Pclass » Survived » Embarked » Sex
+Combinación: 1 » 0 » C » female, Apariciones: 0, Probabilidad: 0, Entropía: 0
+Combinación: 1 » 0 » C » male, Apariciones: 1, Probabilidad: 1, Entropía: 0
+Combinación: 1 » 0 » Q » female, Apariciones: 0, Probabilidad: 0, Entropía: 0
+Combinación: 1 » 0 » Q » male, Apariciones: 0, Probabilidad: 0, Entropía: 0
+Combinación: 1 » 0 » S » female, Apariciones: 0, Probabilidad: 0, Entropía: 0
+Combinación: 1 » 0 » S » male, Apariciones: 4, Probabilidad: 1, Entropía: 0
+Combinación: 1 » 1 » C » female, Apariciones: 0, Probabilidad: 0, Entropía: 0
+Combinación: 1 » 1 » C » male, Apariciones: 1, Probabilidad: 1, Entropía: 0
+Combinación: 1 » 1 » Q » female, Apariciones: 0, Probabilidad: 0, Entropía: 0
+Combinación: 1 » 1 » Q » male, Apariciones: 0, Probabilidad: 0, Entropía: 0
+Combinación: 1 » 1 » S » female, Apariciones: 2, Probabilidad: 0.2857142857142857, Entropía: 0.15544801267150732
+Combinación: 1 » 1 » S » male, Apariciones: 5, Probabilidad: 0.7142857142857143, Entropía: 0.10437716834159858
+Combinación: 2 » 0 » C » female, Apariciones: 0, Probabilidad: 0, Entropía: 0
+Combinación: 2 » 0 » C » male, Apariciones: 0, Probabilidad: 0, Entropía: 0
+Combinación: 2 » 0 » Q » female, Apariciones: 0, Probabilidad: 0, Entropía: 0
+Combinación: 2 » 0 » Q » male, Apariciones: 0, Probabilidad: 0, Entropía: 0
+Combinación: 2 » 0 » S » female, Apariciones: 0, Probabilidad: 0, Entropía: 0
+Combinación: 2 » 0 » S » male, Apariciones: 4, Probabilidad: 1, Entropía: 0
+Combinación: 2 » 1 » C » female, Apariciones: 0, Probabilidad: 0, Entropía: 0
+Combinación: 2 » 1 » C » male, Apariciones: 0, Probabilidad: 0, Entropía: 0
+Combinación: 2 » 1 » Q » female, Apariciones: 0, Probabilidad: 0, Entropía: 0
+Combinación: 2 » 1 » Q » male, Apariciones: 0, Probabilidad: 0, Entropía: 0
+Combinación: 2 » 1 » S » female, Apariciones: 10, Probabilidad: 1, Entropía: 0
+Combinación: 2 » 1 » S » male, Apariciones: 0, Probabilidad: 0, Entropía: 0
+Combinación: 3 » 0 » C » female, Apariciones: 0, Probabilidad: 0, Entropía: 0
+Combinación: 3 » 0 » C » male, Apariciones: 1, Probabilidad: 1, Entropía: 0
+Combinación: 3 » 0 » Q » female, Apariciones: 0, Probabilidad: 0, Entropía: 0
+Combinación: 3 » 0 » Q » male, Apariciones: 3, Probabilidad: 1, Entropía: 0
+Combinación: 3 » 0 » S » female, Apariciones: 4, Probabilidad: 0.3076923076923077, Entropía: 0.15750257260888442
+Combinación: 3 » 0 » S » male, Apariciones: 9, Probabilidad: 0.6923076923076923, Entropía: 0.11056212198520055
+Combinación: 3 » 1 » C » female, Apariciones: 1, Probabilidad: 0.5, Entropía: 0.1505149978319906
+Combinación: 3 » 1 » C » male, Apariciones: 1, Probabilidad: 0.5, Entropía: 0.1505149978319906
+Combinación: 3 » 1 » Q » female, Apariciones: 0, Probabilidad: 0, Entropía: 0
+Combinación: 3 » 1 » Q » male, Apariciones: 0, Probabilidad: 0, Entropía: 0
+Combinación: 3 » 1 » S » female, Apariciones: 1, Probabilidad: 0.25, Entropía: 0.1505149978319906
+Combinación: 3 » 1 » S » male, Apariciones: 3, Probabilidad: 0.75, Entropía: 0.09370405245622496
+Entropía Total: 1.0731389215593878
+-------------------------------------------------
+Arbol: Pclass » Sex
+Combinación: 1 » female, Apariciones: 2, Probabilidad: 0.15384615384615385, Entropía: 0.1250635933296701
+Combinación: 1 » male, Apariciones: 11, Probabilidad: 0.8461538461538461, Entropía: 0.06138902604882531
+Combinación: 2 » female, Apariciones: 10, Probabilidad: 0.7142857142857143, Entropía: 0.10437716834159858
+Combinación: 2 » male, Apariciones: 4, Probabilidad: 0.2857142857142857, Entropía: 0.15544801267150732
+Combinación: 3 » female, Apariciones: 6, Probabilidad: 0.2608695652173913, Entropía: 0.15223737016537806
+Combinación: 3 » male, Apariciones: 17, Probabilidad: 0.7391304347826086, Entropía: 0.09703224125514881
+Entropía Total: 0.6955474118121281
+-------------------------------------------------
+Arbol: Pclass » Sex » Survived
+Combinación: 1 » female » 0, Apariciones: 0, Probabilidad: 0, Entropía: 0
+Combinación: 1 » female » 1, Apariciones: 2, Probabilidad: 1, Entropía: 0
+Combinación: 1 » male » 0, Apariciones: 5, Probabilidad: 0.45454545454545453, Entropía: 0.15564667310100286
+Combinación: 1 » male » 1, Apariciones: 6, Probabilidad: 0.5454545454545454, Entropía: 0.1435862371497717
+Combinación: 2 » female » 0, Apariciones: 0, Probabilidad: 0, Entropía: 0
+Combinación: 2 » female » 1, Apariciones: 10, Probabilidad: 1, Entropía: 0
+Combinación: 2 » male » 0, Apariciones: 4, Probabilidad: 1, Entropía: 0
+Combinación: 2 » male » 1, Apariciones: 0, Probabilidad: 0, Entropía: 0
+Combinación: 3 » female » 0, Apariciones: 4, Probabilidad: 0.6666666666666666, Entropía: 0.1173941727037875
+Combinación: 3 » female » 1, Apariciones: 2, Probabilidad: 0.3333333333333333, Entropía: 0.1590404182398875
+Combinación: 3 » male » 0, Apariciones: 13, Probabilidad: 0.7647058823529411, Entropía: 0.0890924939958049
+Combinación: 3 » male » 1, Apariciones: 4, Probabilidad: 0.23529411764705882, Entropía: 0.1478562188353674
+Entropía Total: 0.8126162140256218
+-------------------------------------------------
+Arbol: Pclass » Sex » Survived » Embarked
+Combinación: 1 » female » 0 » C, Apariciones: 0, Probabilidad: 0, Entropía: 0
+Combinación: 1 » female » 0 » Q, Apariciones: 0, Probabilidad: 0, Entropía: 0
+Combinación: 1 » female » 0 » S, Apariciones: 0, Probabilidad: 0, Entropía: 0
+Combinación: 1 » female » 1 » C, Apariciones: 0, Probabilidad: 0, Entropía: 0
+Combinación: 1 » female » 1 » Q, Apariciones: 0, Probabilidad: 0, Entropía: 0
+Combinación: 1 » female » 1 » S, Apariciones: 2, Probabilidad: 1, Entropía: 0
+Combinación: 1 » male » 0 » C, Apariciones: 1, Probabilidad: 0.2, Entropía: 0.13979400086720375
+Combinación: 1 » male » 0 » Q, Apariciones: 0, Probabilidad: 0, Entropía: 0
+Combinación: 1 » male » 0 » S, Apariciones: 4, Probabilidad: 0.8, Entropía: 0.07752801040644512
+Combinación: 1 » male » 1 » C, Apariciones: 1, Probabilidad: 0.16666666666666666, Entropía: 0.1296918750639406
+Combinación: 1 » male » 1 » Q, Apariciones: 0, Probabilidad: 0, Entropía: 0
+Combinación: 1 » male » 1 » S, Apariciones: 5, Probabilidad: 0.8333333333333334, Entropía: 0.06598437170635402
+Combinación: 2 » female » 0 » C, Apariciones: 0, Probabilidad: 0, Entropía: 0
+Combinación: 2 » female » 0 » Q, Apariciones: 0, Probabilidad: 0, Entropía: 0
+Combinación: 2 » female » 0 » S, Apariciones: 0, Probabilidad: 0, Entropía: 0
+Combinación: 2 » female » 1 » C, Apariciones: 0, Probabilidad: 0, Entropía: 0
+Combinación: 2 » female » 1 » Q, Apariciones: 0, Probabilidad: 0, Entropía: 0
+Combinación: 2 » female » 1 » S, Apariciones: 10, Probabilidad: 1, Entropía: 0
+Combinación: 2 » male » 0 » C, Apariciones: 0, Probabilidad: 0, Entropía: 0
+Combinación: 2 » male » 0 » Q, Apariciones: 0, Probabilidad: 0, Entropía: 0
+Combinación: 2 » male » 0 » S, Apariciones: 4, Probabilidad: 1, Entropía: 0
+Combinación: 2 » male » 1 » C, Apariciones: 0, Probabilidad: 0, Entropía: 0
+Combinación: 2 » male » 1 » Q, Apariciones: 0, Probabilidad: 0, Entropía: 0
+Combinación: 2 » male » 1 » S, Apariciones: 0, Probabilidad: 0, Entropía: 0
+Combinación: 3 » female » 0 » C, Apariciones: 0, Probabilidad: 0, Entropía: 0
+Combinación: 3 » female » 0 » Q, Apariciones: 0, Probabilidad: 0, Entropía: 0
+Combinación: 3 » female » 0 » S, Apariciones: 4, Probabilidad: 1, Entropía: 0
+Combinación: 3 » female » 1 » C, Apariciones: 1, Probabilidad: 0.5, Entropía: 0.1505149978319906
+Combinación: 3 » female » 1 » Q, Apariciones: 0, Probabilidad: 0, Entropía: 0
+Combinación: 3 » female » 1 » S, Apariciones: 1, Probabilidad: 0.5, Entropía: 0.1505149978319906
+Combinación: 3 » male » 0 » C, Apariciones: 1, Probabilidad: 0.07692307692307693, Entropía: 0.08568795017744898
+Combinación: 3 » male » 0 » Q, Apariciones: 3, Probabilidad: 0.23076923076923078, Entropía: 0.14695894559704023
+Combinación: 3 » male » 0 » S, Apariciones: 9, Probabilidad: 0.6923076923076923, Entropía: 0.11056212198520055
+Combinación: 3 » male » 1 » C, Apariciones: 1, Probabilidad: 0.25, Entropía: 0.1505149978319906
+Combinación: 3 » male » 1 » Q, Apariciones: 0, Probabilidad: 0, Entropía: 0
+Combinación: 3 » male » 1 » S, Apariciones: 3, Probabilidad: 0.75, Entropía: 0.09370405245622496
+Entropía Total: 1.30145632175583
+-------------------------------------------------
+Arbol: Pclass » Sex » Embarked
+Combinación: 1 » female » C, Apariciones: 0, Probabilidad: 0, Entropía: 0
+Combinación: 1 » female » Q, Apariciones: 0, Probabilidad: 0, Entropía: 0
+Combinación: 1 » female » S, Apariciones: 2, Probabilidad: 1, Entropía: 0
+Combinación: 1 » male » C, Apariciones: 2, Probabilidad: 0.18181818181818182, Entropía: 0.13461139808986253
+Combinación: 1 » male » Q, Apariciones: 0, Probabilidad: 0, Entropía: 0
+Combinación: 1 » male » S, Apariciones: 9, Probabilidad: 0.8181818181818182, Entropía: 0.07130468922455467
+Combinación: 2 » female » C, Apariciones: 0, Probabilidad: 0, Entropía: 0
+Combinación: 2 » female » Q, Apariciones: 0, Probabilidad: 0, Entropía: 0
+Combinación: 2 » female » S, Apariciones: 10, Probabilidad: 1, Entropía: 0
+Combinación: 2 » male » C, Apariciones: 0, Probabilidad: 0, Entropía: 0
+Combinación: 2 » male » Q, Apariciones: 0, Probabilidad: 0, Entropía: 0
+Combinación: 2 » male » S, Apariciones: 4, Probabilidad: 1, Entropía: 0
+Combinación: 3 » female » C, Apariciones: 1, Probabilidad: 0.16666666666666666, Entropía: 0.1296918750639406
+Combinación: 3 » female » Q, Apariciones: 0, Probabilidad: 0, Entropía: 0
+Combinación: 3 » female » S, Apariciones: 5, Probabilidad: 0.8333333333333334, Entropía: 0.06598437170635402
+Combinación: 3 » male » C, Apariciones: 2, Probabilidad: 0.11764705882352941, Entropía: 0.10934340302521091
+Combinación: 3 » male » Q, Apariciones: 3, Probabilidad: 0.17647058823529413, Entropía: 0.13294017646916675
+Combinación: 3 » male » S, Apariciones: 12, Probabilidad: 0.7058823529411765, Entropía: 0.10677718258634052
+Entropía Total: 0.75065309616543
+-------------------------------------------------
+Arbol: Pclass » Sex » Embarked » Survived
+Combinación: 1 » female » C » 0, Apariciones: 0, Probabilidad: 0, Entropía: 0
+Combinación: 1 » female » C » 1, Apariciones: 0, Probabilidad: 0, Entropía: 0
+Combinación: 1 » female » Q » 0, Apariciones: 0, Probabilidad: 0, Entropía: 0
+Combinación: 1 » female » Q » 1, Apariciones: 0, Probabilidad: 0, Entropía: 0
+Combinación: 1 » female » S » 0, Apariciones: 0, Probabilidad: 0, Entropía: 0
+Combinación: 1 » female » S » 1, Apariciones: 2, Probabilidad: 1, Entropía: 0
+Combinación: 1 » male » C » 0, Apariciones: 1, Probabilidad: 0.5, Entropía: 0.1505149978319906
+Combinación: 1 » male » C » 1, Apariciones: 1, Probabilidad: 0.5, Entropía: 0.1505149978319906
+Combinación: 1 » male » Q » 0, Apariciones: 0, Probabilidad: 0, Entropía: 0
+Combinación: 1 » male » Q » 1, Apariciones: 0, Probabilidad: 0, Entropía: 0
+Combinación: 1 » male » S » 0, Apariciones: 4, Probabilidad: 0.4444444444444444, Entropía: 0.15652556360505002
+Combinación: 1 » male » S » 1, Apariciones: 5, Probabilidad: 0.5555555555555556, Entropía: 0.14181805839072556
+Combinación: 2 » female » C » 0, Apariciones: 0, Probabilidad: 0, Entropía: 0
+Combinación: 2 » female » C » 1, Apariciones: 0, Probabilidad: 0, Entropía: 0
+Combinación: 2 » female » Q » 0, Apariciones: 0, Probabilidad: 0, Entropía: 0
+Combinación: 2 » female » Q » 1, Apariciones: 0, Probabilidad: 0, Entropía: 0
+Combinación: 2 » female » S » 0, Apariciones: 0, Probabilidad: 0, Entropía: 0
+Combinación: 2 » female » S » 1, Apariciones: 10, Probabilidad: 1, Entropía: 0
+Combinación: 2 » male » C » 0, Apariciones: 0, Probabilidad: 0, Entropía: 0
+Combinación: 2 » male » C » 1, Apariciones: 0, Probabilidad: 0, Entropía: 0
+Combinación: 2 » male » Q » 0, Apariciones: 0, Probabilidad: 0, Entropía: 0
+Combinación: 2 » male » Q » 1, Apariciones: 0, Probabilidad: 0, Entropía: 0
+Combinación: 2 » male » S » 0, Apariciones: 4, Probabilidad: 1, Entropía: 0
+Combinación: 2 » male » S » 1, Apariciones: 0, Probabilidad: 0, Entropía: 0
+Combinación: 3 » female » C » 0, Apariciones: 0, Probabilidad: 0, Entropía: 0
+Combinación: 3 » female » C » 1, Apariciones: 1, Probabilidad: 1, Entropía: 0
+Combinación: 3 » female » Q » 0, Apariciones: 0, Probabilidad: 0, Entropía: 0
+Combinación: 3 » female » Q » 1, Apariciones: 0, Probabilidad: 0, Entropía: 0
+Combinación: 3 » female » S » 0, Apariciones: 4, Probabilidad: 0.8, Entropía: 0.07752801040644512
+Combinación: 3 » female » S » 1, Apariciones: 1, Probabilidad: 0.2, Entropía: 0.13979400086720375
+Combinación: 3 » male » C » 0, Apariciones: 1, Probabilidad: 0.5, Entropía: 0.1505149978319906
+Combinación: 3 » male » C » 1, Apariciones: 1, Probabilidad: 0.5, Entropía: 0.1505149978319906
+Combinación: 3 » male » Q » 0, Apariciones: 3, Probabilidad: 1, Entropía: 0
+Combinación: 3 » male » Q » 1, Apariciones: 0, Probabilidad: 0, Entropía: 0
+Combinación: 3 » male » S » 0, Apariciones: 9, Probabilidad: 0.75, Entropía: 0.09370405245622496
+Combinación: 3 » male » S » 1, Apariciones: 3, Probabilidad: 0.25, Entropía: 0.1505149978319906
+Entropía Total: 1.3619446748856023
+-------------------------------------------------
+Arbol: Pclass » Embarked
+Combinación: 1 » C, Apariciones: 2, Probabilidad: 0.15384615384615385, Entropía: 0.1250635933296701
+Combinación: 1 » Q, Apariciones: 0, Probabilidad: 0, Entropía: 0
+Combinación: 1 » S, Apariciones: 11, Probabilidad: 0.8461538461538461, Entropía: 0.06138902604882531
+Combinación: 2 » C, Apariciones: 0, Probabilidad: 0, Entropía: 0
+Combinación: 2 » Q, Apariciones: 0, Probabilidad: 0, Entropía: 0
+Combinación: 2 » S, Apariciones: 14, Probabilidad: 1, Entropía: 0
+Combinación: 3 » C, Apariciones: 3, Probabilidad: 0.13043478260869565, Entropía: 0.11538346712581701
+Combinación: 3 » Q, Apariciones: 3, Probabilidad: 0.13043478260869565, Entropía: 0.11538346712581701
+Combinación: 3 » S, Apariciones: 17, Probabilidad: 0.7391304347826086, Entropía: 0.09703224125514881
+Entropía Total: 0.5142517948852783
+-------------------------------------------------
+Arbol: Pclass » Embarked » Survived
+Combinación: 1 » C » 0, Apariciones: 1, Probabilidad: 0.5, Entropía: 0.1505149978319906
+Combinación: 1 » C » 1, Apariciones: 1, Probabilidad: 0.5, Entropía: 0.1505149978319906
+Combinación: 1 » Q » 0, Apariciones: 0, Probabilidad: 0, Entropía: 0
+Combinación: 1 » Q » 1, Apariciones: 0, Probabilidad: 0, Entropía: 0
+Combinación: 1 » S » 0, Apariciones: 4, Probabilidad: 0.36363636363636365, Entropía: 0.1597573432110046
+Combinación: 1 » S » 1, Apariciones: 7, Probabilidad: 0.6363636363636364, Entropía: 0.12491477418252522
+Combinación: 2 » C » 0, Apariciones: 0, Probabilidad: 0, Entropía: 0
+Combinación: 2 » C » 1, Apariciones: 0, Probabilidad: 0, Entropía: 0
+Combinación: 2 » Q » 0, Apariciones: 0, Probabilidad: 0, Entropía: 0
+Combinación: 2 » Q » 1, Apariciones: 0, Probabilidad: 0, Entropía: 0
+Combinación: 2 » S » 0, Apariciones: 4, Probabilidad: 0.2857142857142857, Entropía: 0.15544801267150732
+Combinación: 2 » S » 1, Apariciones: 10, Probabilidad: 0.7142857142857143, Entropía: 0.10437716834159858
+Combinación: 3 » C » 0, Apariciones: 1, Probabilidad: 0.3333333333333333, Entropía: 0.1590404182398875
+Combinación: 3 » C » 1, Apariciones: 2, Probabilidad: 0.6666666666666666, Entropía: 0.1173941727037875
+Combinación: 3 » Q » 0, Apariciones: 3, Probabilidad: 1, Entropía: 0
+Combinación: 3 » Q » 1, Apariciones: 0, Probabilidad: 0, Entropía: 0
+Combinación: 3 » S » 0, Apariciones: 13, Probabilidad: 0.7647058823529411, Entropía: 0.0890924939958049
+Combinación: 3 » S » 1, Apariciones: 4, Probabilidad: 0.23529411764705882, Entropía: 0.1478562188353674
+Entropía Total: 1.3589105978454643
+-------------------------------------------------
+Arbol: Pclass » Embarked » Survived » Sex
+Combinación: 1 » C » 0 » female, Apariciones: 0, Probabilidad: 0, Entropía: 0
+Combinación: 1 » C » 0 » male, Apariciones: 1, Probabilidad: 1, Entropía: 0
+Combinación: 1 » C » 1 » female, Apariciones: 0, Probabilidad: 0, Entropía: 0
+Combinación: 1 » C » 1 » male, Apariciones: 1, Probabilidad: 1, Entropía: 0
+Combinación: 1 » Q » 0 » female, Apariciones: 0, Probabilidad: 0, Entropía: 0
+Combinación: 1 » Q » 0 » male, Apariciones: 0, Probabilidad: 0, Entropía: 0
+Combinación: 1 » Q » 1 » female, Apariciones: 0, Probabilidad: 0, Entropía: 0
+Combinación: 1 » Q » 1 » male, Apariciones: 0, Probabilidad: 0, Entropía: 0
+Combinación: 1 » S » 0 » female, Apariciones: 0, Probabilidad: 0, Entropía: 0
+Combinación: 1 » S » 0 » male, Apariciones: 4, Probabilidad: 1, Entropía: 0
+Combinación: 1 » S » 1 » female, Apariciones: 2, Probabilidad: 0.2857142857142857, Entropía: 0.15544801267150732
+Combinación: 1 » S » 1 » male, Apariciones: 5, Probabilidad: 0.7142857142857143, Entropía: 0.10437716834159858
+Combinación: 2 » C » 0 » female, Apariciones: 0, Probabilidad: 0, Entropía: 0
+Combinación: 2 » C » 0 » male, Apariciones: 0, Probabilidad: 0, Entropía: 0
+Combinación: 2 » C » 1 » female, Apariciones: 0, Probabilidad: 0, Entropía: 0
+Combinación: 2 » C » 1 » male, Apariciones: 0, Probabilidad: 0, Entropía: 0
+Combinación: 2 » Q » 0 » female, Apariciones: 0, Probabilidad: 0, Entropía: 0
+Combinación: 2 » Q » 0 » male, Apariciones: 0, Probabilidad: 0, Entropía: 0
+Combinación: 2 » Q » 1 » female, Apariciones: 0, Probabilidad: 0, Entropía: 0
+Combinación: 2 » Q » 1 » male, Apariciones: 0, Probabilidad: 0, Entropía: 0
+Combinación: 2 » S » 0 » female, Apariciones: 0, Probabilidad: 0, Entropía: 0
+Combinación: 2 » S » 0 » male, Apariciones: 4, Probabilidad: 1, Entropía: 0
+Combinación: 2 » S » 1 » female, Apariciones: 10, Probabilidad: 1, Entropía: 0
+Combinación: 2 » S » 1 » male, Apariciones: 0, Probabilidad: 0, Entropía: 0
+Combinación: 3 » C » 0 » female, Apariciones: 0, Probabilidad: 0, Entropía: 0
+Combinación: 3 » C » 0 » male, Apariciones: 1, Probabilidad: 1, Entropía: 0
+Combinación: 3 » C » 1 » female, Apariciones: 1, Probabilidad: 0.5, Entropía: 0.1505149978319906
+Combinación: 3 » C » 1 » male, Apariciones: 1, Probabilidad: 0.5, Entropía: 0.1505149978319906
+Combinación: 3 » Q » 0 » female, Apariciones: 0, Probabilidad: 0, Entropía: 0
+Combinación: 3 » Q » 0 » male, Apariciones: 3, Probabilidad: 1, Entropía: 0
+Combinación: 3 » Q » 1 » female, Apariciones: 0, Probabilidad: 0, Entropía: 0
+Combinación: 3 » Q » 1 » male, Apariciones: 0, Probabilidad: 0, Entropía: 0
+Combinación: 3 » S » 0 » female, Apariciones: 4, Probabilidad: 0.3076923076923077, Entropía: 0.15750257260888442
+Combinación: 3 » S » 0 » male, Apariciones: 9, Probabilidad: 0.6923076923076923, Entropía: 0.11056212198520055
+Combinación: 3 » S » 1 » female, Apariciones: 1, Probabilidad: 0.25, Entropía: 0.1505149978319906
+Combinación: 3 » S » 1 » male, Apariciones: 3, Probabilidad: 0.75, Entropía: 0.09370405245622496
+Entropía Total: 1.0731389215593878
+-------------------------------------------------
+Arbol: Pclass » Embarked » Sex
+Combinación: 1 » C » female, Apariciones: 0, Probabilidad: 0, Entropía: 0
+Combinación: 1 » C » male, Apariciones: 2, Probabilidad: 1, Entropía: 0
+Combinación: 1 » Q » female, Apariciones: 0, Probabilidad: 0, Entropía: 0
+Combinación: 1 » Q » male, Apariciones: 0, Probabilidad: 0, Entropía: 0
+Combinación: 1 » S » female, Apariciones: 2, Probabilidad: 0.18181818181818182, Entropía: 0.13461139808986253
+Combinación: 1 » S » male, Apariciones: 9, Probabilidad: 0.8181818181818182, Entropía: 0.07130468922455467
+Combinación: 2 » C » female, Apariciones: 0, Probabilidad: 0, Entropía: 0
+Combinación: 2 » C » male, Apariciones: 0, Probabilidad: 0, Entropía: 0
+Combinación: 2 » Q » female, Apariciones: 0, Probabilidad: 0, Entropía: 0
+Combinación: 2 » Q » male, Apariciones: 0, Probabilidad: 0, Entropía: 0
+Combinación: 2 » S » female, Apariciones: 10, Probabilidad: 0.7142857142857143, Entropía: 0.10437716834159858
+Combinación: 2 » S » male, Apariciones: 4, Probabilidad: 0.2857142857142857, Entropía: 0.15544801267150732
+Combinación: 3 » C » female, Apariciones: 1, Probabilidad: 0.3333333333333333, Entropía: 0.1590404182398875
+Combinación: 3 » C » male, Apariciones: 2, Probabilidad: 0.6666666666666666, Entropía: 0.1173941727037875
+Combinación: 3 » Q » female, Apariciones: 0, Probabilidad: 0, Entropía: 0
+Combinación: 3 » Q » male, Apariciones: 3, Probabilidad: 1, Entropía: 0
+Combinación: 3 » S » female, Apariciones: 5, Probabilidad: 0.29411764705882354, Entropía: 0.15631732854183975
+Combinación: 3 » S » male, Apariciones: 12, Probabilidad: 0.7058823529411765, Entropía: 0.10677718258634052
+Entropía Total: 1.0052703703993784
+-------------------------------------------------
+Arbol: Pclass » Embarked » Sex » Survived
+Combinación: 1 » C » female » 0, Apariciones: 0, Probabilidad: 0, Entropía: 0
+Combinación: 1 » C » female » 1, Apariciones: 0, Probabilidad: 0, Entropía: 0
+Combinación: 1 » C » male » 0, Apariciones: 1, Probabilidad: 0.5, Entropía: 0.1505149978319906
+Combinación: 1 » C » male » 1, Apariciones: 1, Probabilidad: 0.5, Entropía: 0.1505149978319906
+Combinación: 1 » Q » female » 0, Apariciones: 0, Probabilidad: 0, Entropía: 0
+Combinación: 1 » Q » female » 1, Apariciones: 0, Probabilidad: 0, Entropía: 0
+Combinación: 1 » Q » male » 0, Apariciones: 0, Probabilidad: 0, Entropía: 0
+Combinación: 1 » Q » male » 1, Apariciones: 0, Probabilidad: 0, Entropía: 0
+Combinación: 1 » S » female » 0, Apariciones: 0, Probabilidad: 0, Entropía: 0
+Combinación: 1 » S » female » 1, Apariciones: 2, Probabilidad: 1, Entropía: 0
+Combinación: 1 » S » male » 0, Apariciones: 4, Probabilidad: 0.4444444444444444, Entropía: 0.15652556360505002
+Combinación: 1 » S » male » 1, Apariciones: 5, Probabilidad: 0.5555555555555556, Entropía: 0.14181805839072556
+Combinación: 2 » C » female » 0, Apariciones: 0, Probabilidad: 0, Entropía: 0
+Combinación: 2 » C » female » 1, Apariciones: 0, Probabilidad: 0, Entropía: 0
+Combinación: 2 » C » male » 0, Apariciones: 0, Probabilidad: 0, Entropía: 0
+Combinación: 2 » C » male » 1, Apariciones: 0, Probabilidad: 0, Entropía: 0
+Combinación: 2 » Q » female » 0, Apariciones: 0, Probabilidad: 0, Entropía: 0
+Combinación: 2 » Q » female » 1, Apariciones: 0, Probabilidad: 0, Entropía: 0
+Combinación: 2 » Q » male » 0, Apariciones: 0, Probabilidad: 0, Entropía: 0
+Combinación: 2 » Q » male » 1, Apariciones: 0, Probabilidad: 0, Entropía: 0
+Combinación: 2 » S » female » 0, Apariciones: 0, Probabilidad: 0, Entropía: 0
+Combinación: 2 » S » female » 1, Apariciones: 10, Probabilidad: 1, Entropía: 0
+Combinación: 2 » S » male » 0, Apariciones: 4, Probabilidad: 1, Entropía: 0
+Combinación: 2 » S » male » 1, Apariciones: 0, Probabilidad: 0, Entropía: 0
+Combinación: 3 » C » female » 0, Apariciones: 0, Probabilidad: 0, Entropía: 0
+Combinación: 3 » C » female » 1, Apariciones: 1, Probabilidad: 1, Entropía: 0
+Combinación: 3 » C » male » 0, Apariciones: 1, Probabilidad: 0.5, Entropía: 0.1505149978319906
+Combinación: 3 » C » male » 1, Apariciones: 1, Probabilidad: 0.5, Entropía: 0.1505149978319906
+Combinación: 3 » Q » female » 0, Apariciones: 0, Probabilidad: 0, Entropía: 0
+Combinación: 3 » Q » female » 1, Apariciones: 0, Probabilidad: 0, Entropía: 0
+Combinación: 3 » Q » male » 0, Apariciones: 3, Probabilidad: 1, Entropía: 0
+Combinación: 3 » Q » male » 1, Apariciones: 0, Probabilidad: 0, Entropía: 0
+Combinación: 3 » S » female » 0, Apariciones: 4, Probabilidad: 0.8, Entropía: 0.07752801040644512
+Combinación: 3 » S » female » 1, Apariciones: 1, Probabilidad: 0.2, Entropía: 0.13979400086720375
+Combinación: 3 » S » male » 0, Apariciones: 9, Probabilidad: 0.75, Entropía: 0.09370405245622496
+Combinación: 3 » S » male » 1, Apariciones: 3, Probabilidad: 0.25, Entropía: 0.1505149978319906
+Entropía Total: 1.3619446748856026
+-------------------------------------------------
+Arbol: Sex
+Combinación: female, Apariciones: 18, Probabilidad: 0.36, Entropía: 0.15973109972377658
+Combinación: male, Apariciones: 32, Probabilidad: 0.64, Entropía: 0.12404481665031221
+Entropía Total: 0.2837759163740888
+-------------------------------------------------
+Arbol: Sex » Survived
+Combinación: female » 0, Apariciones: 4, Probabilidad: 0.2222222222222222, Entropía: 0.14515833639452083
+Combinación: female » 1, Apariciones: 14, Probabilidad: 0.7777777777777778, Entropía: 0.08489014288616402
+Combinación: male » 0, Apariciones: 22, Probabilidad: 0.6875, Entropía: 0.11187501702966857
+Combinación: male » 1, Apariciones: 10, Probabilidad: 0.3125, Entropía: 0.15785936822497065
+Entropía Total: 0.49978286453532406
+-------------------------------------------------
+Arbol: Sex » Survived » Pclass
+Combinación: female » 0 » 1, Apariciones: 0, Probabilidad: 0, Entropía: 0
+Combinación: female » 0 » 2, Apariciones: 0, Probabilidad: 0, Entropía: 0
+Combinación: female » 0 » 3, Apariciones: 4, Probabilidad: 1, Entropía: 0
+Combinación: female » 1 » 1, Apariciones: 2, Probabilidad: 0.14285714285714285, Entropía: 0.12072829143060812
+Combinación: female » 1 » 2, Apariciones: 10, Probabilidad: 0.7142857142857143, Entropía: 0.10437716834159858
+Combinación: female » 1 » 3, Apariciones: 2, Probabilidad: 0.14285714285714285, Entropía: 0.12072829143060812
+Combinación: male » 0 » 1, Apariciones: 5, Probabilidad: 0.22727272727272727, Entropía: 0.14623924465595167
+Combinación: male » 0 » 2, Apariciones: 4, Probabilidad: 0.18181818181818182, Entropía: 0.13461139808986253
+Combinación: male » 0 » 3, Apariciones: 13, Probabilidad: 0.5909090909090909, Entropía: 0.1350105123045365
+Combinación: male » 1 » 1, Apariciones: 6, Probabilidad: 0.6, Entropía: 0.1331092497698138
+Combinación: male » 1 » 2, Apariciones: 0, Probabilidad: 0, Entropía: 0
+Combinación: male » 1 » 3, Apariciones: 4, Probabilidad: 0.4, Entropía: 0.15917600346881505
+Entropía Total: 1.0539801594917944
+-------------------------------------------------
+Arbol: Sex » Survived » Pclass » Embarked
+Combinación: female » 0 » 1 » C, Apariciones: 0, Probabilidad: 0, Entropía: 0
+Combinación: female » 0 » 1 » Q, Apariciones: 0, Probabilidad: 0, Entropía: 0
+Combinación: female » 0 » 1 » S, Apariciones: 0, Probabilidad: 0, Entropía: 0
+Combinación: female » 0 » 2 » C, Apariciones: 0, Probabilidad: 0, Entropía: 0
+Combinación: female » 0 » 2 » Q, Apariciones: 0, Probabilidad: 0, Entropía: 0
+Combinación: female » 0 » 2 » S, Apariciones: 0, Probabilidad: 0, Entropía: 0
+Combinación: female » 0 » 3 » C, Apariciones: 0, Probabilidad: 0, Entropía: 0
+Combinación: female » 0 » 3 » Q, Apariciones: 0, Probabilidad: 0, Entropía: 0
+Combinación: female » 0 » 3 » S, Apariciones: 4, Probabilidad: 1, Entropía: 0
+Combinación: female » 1 » 1 » C, Apariciones: 0, Probabilidad: 0, Entropía: 0
+Combinación: female » 1 » 1 » Q, Apariciones: 0, Probabilidad: 0, Entropía: 0
+Combinación: female » 1 » 1 » S, Apariciones: 2, Probabilidad: 1, Entropía: 0
+Combinación: female » 1 » 2 » C, Apariciones: 0, Probabilidad: 0, Entropía: 0
+Combinación: female » 1 » 2 » Q, Apariciones: 0, Probabilidad: 0, Entropía: 0
+Combinación: female » 1 » 2 » S, Apariciones: 10, Probabilidad: 1, Entropía: 0
+Combinación: female » 1 » 3 » C, Apariciones: 1, Probabilidad: 0.5, Entropía: 0.1505149978319906
+Combinación: female » 1 » 3 » Q, Apariciones: 0, Probabilidad: 0, Entropía: 0
+Combinación: female » 1 » 3 » S, Apariciones: 1, Probabilidad: 0.5, Entropía: 0.1505149978319906
+Combinación: male » 0 » 1 » C, Apariciones: 1, Probabilidad: 0.2, Entropía: 0.13979400086720375
+Combinación: male » 0 » 1 » Q, Apariciones: 0, Probabilidad: 0, Entropía: 0
+Combinación: male » 0 » 1 » S, Apariciones: 4, Probabilidad: 0.8, Entropía: 0.07752801040644512
+Combinación: male » 0 » 2 » C, Apariciones: 0, Probabilidad: 0, Entropía: 0
+Combinación: male » 0 » 2 » Q, Apariciones: 0, Probabilidad: 0, Entropía: 0
+Combinación: male » 0 » 2 » S, Apariciones: 4, Probabilidad: 1, Entropía: 0
+Combinación: male » 0 » 3 » C, Apariciones: 1, Probabilidad: 0.07692307692307693, Entropía: 0.08568795017744898
+Combinación: male » 0 » 3 » Q, Apariciones: 3, Probabilidad: 0.23076923076923078, Entropía: 0.14695894559704023
+Combinación: male » 0 » 3 » S, Apariciones: 9, Probabilidad: 0.6923076923076923, Entropía: 0.11056212198520055
+Combinación: male » 1 » 1 » C, Apariciones: 1, Probabilidad: 0.16666666666666666, Entropía: 0.1296918750639406
+Combinación: male » 1 » 1 » Q, Apariciones: 0, Probabilidad: 0, Entropía: 0
+Combinación: male » 1 » 1 » S, Apariciones: 5, Probabilidad: 0.8333333333333334, Entropía: 0.06598437170635402
+Combinación: male » 1 » 2 » C, Apariciones: 0, Probabilidad: 0, Entropía: 0
+Combinación: male » 1 » 2 » Q, Apariciones: 0, Probabilidad: 0, Entropía: 0
+Combinación: male » 1 » 2 » S, Apariciones: 0, Probabilidad: 0, Entropía: 0
+Combinación: male » 1 » 3 » C, Apariciones: 1, Probabilidad: 0.25, Entropía: 0.1505149978319906
+Combinación: male » 1 » 3 » Q, Apariciones: 0, Probabilidad: 0, Entropía: 0
+Combinación: male » 1 » 3 » S, Apariciones: 3, Probabilidad: 0.75, Entropía: 0.09370405245622496
+Entropía Total: 1.30145632175583
+-------------------------------------------------
+Arbol: Sex » Survived » Embarked
+Combinación: female » 0 » C, Apariciones: 0, Probabilidad: 0, Entropía: 0
+Combinación: female » 0 » Q, Apariciones: 0, Probabilidad: 0, Entropía: 0
+Combinación: female » 0 » S, Apariciones: 4, Probabilidad: 1, Entropía: 0
+Combinación: female » 1 » C, Apariciones: 1, Probabilidad: 0.07142857142857142, Entropía: 0.08186628826273129
+Combinación: female » 1 » Q, Apariciones: 0, Probabilidad: 0, Entropía: 0
+Combinación: female » 1 » S, Apariciones: 13, Probabilidad: 0.9285714285714286, Entropía: 0.029885777416301156
+Combinación: male » 0 » C, Apariciones: 2, Probabilidad: 0.09090909090909091, Entropía: 0.09467206228711136
+Combinación: male » 0 » Q, Apariciones: 3, Probabilidad: 0.13636363636363635, Entropía: 0.11799564901398324
+Combinación: male » 0 » S, Apariciones: 17, Probabilidad: 0.7727272727272727, Entropía: 0.0865251777521295
+Combinación: male » 1 » C, Apariciones: 2, Probabilidad: 0.2, Entropía: 0.13979400086720375
+Combinación: male » 1 » Q, Apariciones: 0, Probabilidad: 0, Entropía: 0
+Combinación: male » 1 » S, Apariciones: 8, Probabilidad: 0.8, Entropía: 0.07752801040644512
+Entropía Total: 0.6282669660059054
+-------------------------------------------------
+Arbol: Sex » Survived » Embarked » Pclass
+Combinación: female » 0 » C » 1, Apariciones: 0, Probabilidad: 0, Entropía: 0
+Combinación: female » 0 » C » 2, Apariciones: 0, Probabilidad: 0, Entropía: 0
+Combinación: female » 0 » C » 3, Apariciones: 0, Probabilidad: 0, Entropía: 0
+Combinación: female » 0 » Q » 1, Apariciones: 0, Probabilidad: 0, Entropía: 0
+Combinación: female » 0 » Q » 2, Apariciones: 0, Probabilidad: 0, Entropía: 0
+Combinación: female » 0 » Q » 3, Apariciones: 0, Probabilidad: 0, Entropía: 0
+Combinación: female » 0 » S » 1, Apariciones: 0, Probabilidad: 0, Entropía: 0
+Combinación: female » 0 » S » 2, Apariciones: 0, Probabilidad: 0, Entropía: 0
+Combinación: female » 0 » S » 3, Apariciones: 4, Probabilidad: 1, Entropía: 0
+Combinación: female » 1 » C » 1, Apariciones: 0, Probabilidad: 0, Entropía: 0
+Combinación: female » 1 » C » 2, Apariciones: 0, Probabilidad: 0, Entropía: 0
+Combinación: female » 1 » C » 3, Apariciones: 1, Probabilidad: 1, Entropía: 0
+Combinación: female » 1 » Q » 1, Apariciones: 0, Probabilidad: 0, Entropía: 0
+Combinación: female » 1 » Q » 2, Apariciones: 0, Probabilidad: 0, Entropía: 0
+Combinación: female » 1 » Q » 3, Apariciones: 0, Probabilidad: 0, Entropía: 0
+Combinación: female » 1 » S » 1, Apariciones: 2, Probabilidad: 0.15384615384615385, Entropía: 0.1250635933296701
+Combinación: female » 1 » S » 2, Apariciones: 10, Probabilidad: 0.7692307692307693, Entropía: 0.08764873254372058
+Combinación: female » 1 » S » 3, Apariciones: 1, Probabilidad: 0.07692307692307693, Entropía: 0.08568795017744898
+Combinación: male » 0 » C » 1, Apariciones: 1, Probabilidad: 0.5, Entropía: 0.1505149978319906
+Combinación: male » 0 » C » 2, Apariciones: 0, Probabilidad: 0, Entropía: 0
+Combinación: male » 0 » C » 3, Apariciones: 1, Probabilidad: 0.5, Entropía: 0.1505149978319906
+Combinación: male » 0 » Q » 1, Apariciones: 0, Probabilidad: 0, Entropía: 0
+Combinación: male » 0 » Q » 2, Apariciones: 0, Probabilidad: 0, Entropía: 0
+Combinación: male » 0 » Q » 3, Apariciones: 3, Probabilidad: 1, Entropía: 0
+Combinación: male » 0 » S » 1, Apariciones: 4, Probabilidad: 0.23529411764705882, Entropía: 0.1478562188353674
+Combinación: male » 0 » S » 2, Apariciones: 4, Probabilidad: 0.23529411764705882, Entropía: 0.1478562188353674
+Combinación: male » 0 » S » 3, Apariciones: 9, Probabilidad: 0.5294117647058824, Entropía: 0.14622692396767892
+Combinación: male » 1 » C » 1, Apariciones: 1, Probabilidad: 0.5, Entropía: 0.1505149978319906
+Combinación: male » 1 » C » 2, Apariciones: 0, Probabilidad: 0, Entropía: 0
+Combinación: male » 1 » C » 3, Apariciones: 1, Probabilidad: 0.5, Entropía: 0.1505149978319906
+Combinación: male » 1 » Q » 1, Apariciones: 0, Probabilidad: 0, Entropía: 0
+Combinación: male » 1 » Q » 2, Apariciones: 0, Probabilidad: 0, Entropía: 0
+Combinación: male » 1 » Q » 3, Apariciones: 0, Probabilidad: 0, Entropía: 0
+Combinación: male » 1 » S » 1, Apariciones: 5, Probabilidad: 0.625, Entropía: 0.127574989159953
+Combinación: male » 1 » S » 2, Apariciones: 0, Probabilidad: 0, Entropía: 0
+Combinación: male » 1 » S » 3, Apariciones: 3, Probabilidad: 0.375, Entropía: 0.15973827460210543
+Entropía Total: 1.6297128927792741
+-------------------------------------------------
+Arbol: Sex » Pclass
+Combinación: female » 1, Apariciones: 2, Probabilidad: 0.1111111111111111, Entropía: 0.1060269454932583
+Combinación: female » 2, Apariciones: 10, Probabilidad: 0.5555555555555556, Entropía: 0.14181805839072556
+Combinación: female » 3, Apariciones: 6, Probabilidad: 0.3333333333333333, Entropía: 0.1590404182398875
+Combinación: male » 1, Apariciones: 11, Probabilidad: 0.34375, Entropía: 0.1594165695243278
+Combinación: male » 2, Apariciones: 4, Probabilidad: 0.125, Entropía: 0.11288624837399294
+Combinación: male » 3, Apariciones: 17, Probabilidad: 0.53125, Entropía: 0.14593493650024203
+Entropía Total: 0.8251231765224342
+-------------------------------------------------
+Arbol: Sex » Pclass » Survived
+Combinación: female » 1 » 0, Apariciones: 0, Probabilidad: 0, Entropía: 0
+Combinación: female » 1 » 1, Apariciones: 2, Probabilidad: 1, Entropía: 0
+Combinación: female » 2 » 0, Apariciones: 0, Probabilidad: 0, Entropía: 0
+Combinación: female » 2 » 1, Apariciones: 10, Probabilidad: 1, Entropía: 0
+Combinación: female » 3 » 0, Apariciones: 4, Probabilidad: 0.6666666666666666, Entropía: 0.1173941727037875
+Combinación: female » 3 » 1, Apariciones: 2, Probabilidad: 0.3333333333333333, Entropía: 0.1590404182398875
+Combinación: male » 1 » 0, Apariciones: 5, Probabilidad: 0.45454545454545453, Entropía: 0.15564667310100286
+Combinación: male » 1 » 1, Apariciones: 6, Probabilidad: 0.5454545454545454, Entropía: 0.1435862371497717
+Combinación: male » 2 » 0, Apariciones: 4, Probabilidad: 1, Entropía: 0
+Combinación: male » 2 » 1, Apariciones: 0, Probabilidad: 0, Entropía: 0
+Combinación: male » 3 » 0, Apariciones: 13, Probabilidad: 0.7647058823529411, Entropía: 0.0890924939958049
+Combinación: male » 3 » 1, Apariciones: 4, Probabilidad: 0.23529411764705882, Entropía: 0.1478562188353674
+Entropía Total: 0.8126162140256218
+-------------------------------------------------
+Arbol: Sex » Pclass » Survived » Embarked
+Combinación: female » 1 » 0 » C, Apariciones: 0, Probabilidad: 0, Entropía: 0
+Combinación: female » 1 » 0 » Q, Apariciones: 0, Probabilidad: 0, Entropía: 0
+Combinación: female » 1 » 0 » S, Apariciones: 0, Probabilidad: 0, Entropía: 0
+Combinación: female » 1 » 1 » C, Apariciones: 0, Probabilidad: 0, Entropía: 0
+Combinación: female » 1 » 1 » Q, Apariciones: 0, Probabilidad: 0, Entropía: 0
+Combinación: female » 1 » 1 » S, Apariciones: 2, Probabilidad: 1, Entropía: 0
+Combinación: female » 2 » 0 » C, Apariciones: 0, Probabilidad: 0, Entropía: 0
+Combinación: female » 2 » 0 » Q, Apariciones: 0, Probabilidad: 0, Entropía: 0
+Combinación: female » 2 » 0 » S, Apariciones: 0, Probabilidad: 0, Entropía: 0
+Combinación: female » 2 » 1 » C, Apariciones: 0, Probabilidad: 0, Entropía: 0
+Combinación: female » 2 » 1 » Q, Apariciones: 0, Probabilidad: 0, Entropía: 0
+Combinación: female » 2 » 1 » S, Apariciones: 10, Probabilidad: 1, Entropía: 0
+Combinación: female » 3 » 0 » C, Apariciones: 0, Probabilidad: 0, Entropía: 0
+Combinación: female » 3 » 0 » Q, Apariciones: 0, Probabilidad: 0, Entropía: 0
+Combinación: female » 3 » 0 » S, Apariciones: 4, Probabilidad: 1, Entropía: 0
+Combinación: female » 3 » 1 » C, Apariciones: 1, Probabilidad: 0.5, Entropía: 0.1505149978319906
+Combinación: female » 3 » 1 » Q, Apariciones: 0, Probabilidad: 0, Entropía: 0
+Combinación: female » 3 » 1 » S, Apariciones: 1, Probabilidad: 0.5, Entropía: 0.1505149978319906
+Combinación: male » 1 » 0 » C, Apariciones: 1, Probabilidad: 0.2, Entropía: 0.13979400086720375
+Combinación: male » 1 » 0 » Q, Apariciones: 0, Probabilidad: 0, Entropía: 0
+Combinación: male » 1 » 0 » S, Apariciones: 4, Probabilidad: 0.8, Entropía: 0.07752801040644512
+Combinación: male » 1 » 1 » C, Apariciones: 1, Probabilidad: 0.16666666666666666, Entropía: 0.1296918750639406
+Combinación: male » 1 » 1 » Q, Apariciones: 0, Probabilidad: 0, Entropía: 0
+Combinación: male » 1 » 1 » S, Apariciones: 5, Probabilidad: 0.8333333333333334, Entropía: 0.06598437170635402
+Combinación: male » 2 » 0 » C, Apariciones: 0, Probabilidad: 0, Entropía: 0
+Combinación: male » 2 » 0 » Q, Apariciones: 0, Probabilidad: 0, Entropía: 0
+Combinación: male » 2 » 0 » S, Apariciones: 4, Probabilidad: 1, Entropía: 0
+Combinación: male » 2 » 1 » C, Apariciones: 0, Probabilidad: 0, Entropía: 0
+Combinación: male » 2 » 1 » Q, Apariciones: 0, Probabilidad: 0, Entropía: 0
+Combinación: male » 2 » 1 » S, Apariciones: 0, Probabilidad: 0, Entropía: 0
+Combinación: male » 3 » 0 » C, Apariciones: 1, Probabilidad: 0.07692307692307693, Entropía: 0.08568795017744898
+Combinación: male » 3 » 0 » Q, Apariciones: 3, Probabilidad: 0.23076923076923078, Entropía: 0.14695894559704023
+Combinación: male » 3 » 0 » S, Apariciones: 9, Probabilidad: 0.6923076923076923, Entropía: 0.11056212198520055
+Combinación: male » 3 » 1 » C, Apariciones: 1, Probabilidad: 0.25, Entropía: 0.1505149978319906
+Combinación: male » 3 » 1 » Q, Apariciones: 0, Probabilidad: 0, Entropía: 0
+Combinación: male » 3 » 1 » S, Apariciones: 3, Probabilidad: 0.75, Entropía: 0.09370405245622496
+Entropía Total: 1.30145632175583
+-------------------------------------------------
+Arbol: Sex » Pclass » Embarked
+Combinación: female » 1 » C, Apariciones: 0, Probabilidad: 0, Entropía: 0
+Combinación: female » 1 » Q, Apariciones: 0, Probabilidad: 0, Entropía: 0
+Combinación: female » 1 » S, Apariciones: 2, Probabilidad: 1, Entropía: 0
+Combinación: female » 2 » C, Apariciones: 0, Probabilidad: 0, Entropía: 0
+Combinación: female » 2 » Q, Apariciones: 0, Probabilidad: 0, Entropía: 0
+Combinación: female » 2 » S, Apariciones: 10, Probabilidad: 1, Entropía: 0
+Combinación: female » 3 » C, Apariciones: 1, Probabilidad: 0.16666666666666666, Entropía: 0.1296918750639406
+Combinación: female » 3 » Q, Apariciones: 0, Probabilidad: 0, Entropía: 0
+Combinación: female » 3 » S, Apariciones: 5, Probabilidad: 0.8333333333333334, Entropía: 0.06598437170635402
+Combinación: male » 1 » C, Apariciones: 2, Probabilidad: 0.18181818181818182, Entropía: 0.13461139808986253
+Combinación: male » 1 » Q, Apariciones: 0, Probabilidad: 0, Entropía: 0
+Combinación: male » 1 » S, Apariciones: 9, Probabilidad: 0.8181818181818182, Entropía: 0.07130468922455467
+Combinación: male » 2 » C, Apariciones: 0, Probabilidad: 0, Entropía: 0
+Combinación: male » 2 » Q, Apariciones: 0, Probabilidad: 0, Entropía: 0
+Combinación: male » 2 » S, Apariciones: 4, Probabilidad: 1, Entropía: 0
+Combinación: male » 3 » C, Apariciones: 2, Probabilidad: 0.11764705882352941, Entropía: 0.10934340302521091
+Combinación: male » 3 » Q, Apariciones: 3, Probabilidad: 0.17647058823529413, Entropía: 0.13294017646916675
+Combinación: male » 3 » S, Apariciones: 12, Probabilidad: 0.7058823529411765, Entropía: 0.10677718258634052
+Entropía Total: 0.7506530961654301
+-------------------------------------------------
+Arbol: Sex » Pclass » Embarked » Survived
+Combinación: female » 1 » C » 0, Apariciones: 0, Probabilidad: 0, Entropía: 0
+Combinación: female » 1 » C » 1, Apariciones: 0, Probabilidad: 0, Entropía: 0
+Combinación: female » 1 » Q » 0, Apariciones: 0, Probabilidad: 0, Entropía: 0
+Combinación: female » 1 » Q » 1, Apariciones: 0, Probabilidad: 0, Entropía: 0
+Combinación: female » 1 » S » 0, Apariciones: 0, Probabilidad: 0, Entropía: 0
+Combinación: female » 1 » S » 1, Apariciones: 2, Probabilidad: 1, Entropía: 0
+Combinación: female » 2 » C » 0, Apariciones: 0, Probabilidad: 0, Entropía: 0
+Combinación: female » 2 » C » 1, Apariciones: 0, Probabilidad: 0, Entropía: 0
+Combinación: female » 2 » Q » 0, Apariciones: 0, Probabilidad: 0, Entropía: 0
+Combinación: female » 2 » Q » 1, Apariciones: 0, Probabilidad: 0, Entropía: 0
+Combinación: female » 2 » S » 0, Apariciones: 0, Probabilidad: 0, Entropía: 0
+Combinación: female » 2 » S » 1, Apariciones: 10, Probabilidad: 1, Entropía: 0
+Combinación: female » 3 » C » 0, Apariciones: 0, Probabilidad: 0, Entropía: 0
+Combinación: female » 3 » C » 1, Apariciones: 1, Probabilidad: 1, Entropía: 0
+Combinación: female » 3 » Q » 0, Apariciones: 0, Probabilidad: 0, Entropía: 0
+Combinación: female » 3 » Q » 1, Apariciones: 0, Probabilidad: 0, Entropía: 0
+Combinación: female » 3 » S » 0, Apariciones: 4, Probabilidad: 0.8, Entropía: 0.07752801040644512
+Combinación: female » 3 » S » 1, Apariciones: 1, Probabilidad: 0.2, Entropía: 0.13979400086720375
+Combinación: male » 1 » C » 0, Apariciones: 1, Probabilidad: 0.5, Entropía: 0.1505149978319906
+Combinación: male » 1 » C » 1, Apariciones: 1, Probabilidad: 0.5, Entropía: 0.1505149978319906
+Combinación: male » 1 » Q » 0, Apariciones: 0, Probabilidad: 0, Entropía: 0
+Combinación: male » 1 » Q » 1, Apariciones: 0, Probabilidad: 0, Entropía: 0
+Combinación: male » 1 » S » 0, Apariciones: 4, Probabilidad: 0.4444444444444444, Entropía: 0.15652556360505002
+Combinación: male » 1 » S » 1, Apariciones: 5, Probabilidad: 0.5555555555555556, Entropía: 0.14181805839072556
+Combinación: male » 2 » C » 0, Apariciones: 0, Probabilidad: 0, Entropía: 0
+Combinación: male » 2 » C » 1, Apariciones: 0, Probabilidad: 0, Entropía: 0
+Combinación: male » 2 » Q » 0, Apariciones: 0, Probabilidad: 0, Entropía: 0
+Combinación: male » 2 » Q » 1, Apariciones: 0, Probabilidad: 0, Entropía: 0
+Combinación: male » 2 » S » 0, Apariciones: 4, Probabilidad: 1, Entropía: 0
+Combinación: male » 2 » S » 1, Apariciones: 0, Probabilidad: 0, Entropía: 0
+Combinación: male » 3 » C » 0, Apariciones: 1, Probabilidad: 0.5, Entropía: 0.1505149978319906
+Combinación: male » 3 » C » 1, Apariciones: 1, Probabilidad: 0.5, Entropía: 0.1505149978319906
+Combinación: male » 3 » Q » 0, Apariciones: 3, Probabilidad: 1, Entropía: 0
+Combinación: male » 3 » Q » 1, Apariciones: 0, Probabilidad: 0, Entropía: 0
+Combinación: male » 3 » S » 0, Apariciones: 9, Probabilidad: 0.75, Entropía: 0.09370405245622496
+Combinación: male » 3 » S » 1, Apariciones: 3, Probabilidad: 0.25, Entropía: 0.1505149978319906
+Entropía Total: 1.3619446748856023
+-------------------------------------------------
+Arbol: Sex » Embarked
+Combinación: female » C, Apariciones: 1, Probabilidad: 0.05555555555555555, Entropía: 0.0697373613946281
+Combinación: female » Q, Apariciones: 0, Probabilidad: 0, Entropía: 0
+Combinación: female » S, Apariciones: 17, Probabilidad: 0.9444444444444444, Entropía: 0.023444495740308144
+Combinación: male » C, Apariciones: 4, Probabilidad: 0.125, Entropía: 0.11288624837399294
+Combinación: male » Q, Apariciones: 3, Probabilidad: 0.09375, Entropía: 0.09637769283752282
+Combinación: male » S, Apariciones: 25, Probabilidad: 0.78125, Entropía: 0.08375778878739716
+Entropía Total: 0.38620358713384917
+-------------------------------------------------
+Arbol: Sex » Embarked » Survived
+Combinación: female » C » 0, Apariciones: 0, Probabilidad: 0, Entropía: 0
+Combinación: female » C » 1, Apariciones: 1, Probabilidad: 1, Entropía: 0
+Combinación: female » Q » 0, Apariciones: 0, Probabilidad: 0, Entropía: 0
+Combinación: female » Q » 1, Apariciones: 0, Probabilidad: 0, Entropía: 0
+Combinación: female » S » 0, Apariciones: 4, Probabilidad: 0.23529411764705882, Entropía: 0.1478562188353674
+Combinación: female » S » 1, Apariciones: 13, Probabilidad: 0.7647058823529411, Entropía: 0.0890924939958049
+Combinación: male » C » 0, Apariciones: 2, Probabilidad: 0.5, Entropía: 0.1505149978319906
+Combinación: male » C » 1, Apariciones: 2, Probabilidad: 0.5, Entropía: 0.1505149978319906
+Combinación: male » Q » 0, Apariciones: 3, Probabilidad: 1, Entropía: 0
+Combinación: male » Q » 1, Apariciones: 0, Probabilidad: 0, Entropía: 0
+Combinación: male » S » 0, Apariciones: 17, Probabilidad: 0.68, Entropía: 0.1138939393597593
+Combinación: male » S » 1, Apariciones: 8, Probabilidad: 0.32, Entropía: 0.15835200693763007
+Entropía Total: 0.8102246547925429
+-------------------------------------------------
+Arbol: Sex » Embarked » Survived » Pclass
+Combinación: female » C » 0 » 1, Apariciones: 0, Probabilidad: 0, Entropía: 0
+Combinación: female » C » 0 » 2, Apariciones: 0, Probabilidad: 0, Entropía: 0
+Combinación: female » C » 0 » 3, Apariciones: 0, Probabilidad: 0, Entropía: 0
+Combinación: female » C » 1 » 1, Apariciones: 0, Probabilidad: 0, Entropía: 0
+Combinación: female » C » 1 » 2, Apariciones: 0, Probabilidad: 0, Entropía: 0
+Combinación: female » C » 1 » 3, Apariciones: 1, Probabilidad: 1, Entropía: 0
+Combinación: female » Q » 0 » 1, Apariciones: 0, Probabilidad: 0, Entropía: 0
+Combinación: female » Q » 0 » 2, Apariciones: 0, Probabilidad: 0, Entropía: 0
+Combinación: female » Q » 0 » 3, Apariciones: 0, Probabilidad: 0, Entropía: 0
+Combinación: female » Q » 1 » 1, Apariciones: 0, Probabilidad: 0, Entropía: 0
+Combinación: female » Q » 1 » 2, Apariciones: 0, Probabilidad: 0, Entropía: 0
+Combinación: female » Q » 1 » 3, Apariciones: 0, Probabilidad: 0, Entropía: 0
+Combinación: female » S » 0 » 1, Apariciones: 0, Probabilidad: 0, Entropía: 0
+Combinación: female » S » 0 » 2, Apariciones: 0, Probabilidad: 0, Entropía: 0
+Combinación: female » S » 0 » 3, Apariciones: 4, Probabilidad: 1, Entropía: 0
+Combinación: female » S » 1 » 1, Apariciones: 2, Probabilidad: 0.15384615384615385, Entropía: 0.1250635933296701
+Combinación: female » S » 1 » 2, Apariciones: 10, Probabilidad: 0.7692307692307693, Entropía: 0.08764873254372058
+Combinación: female » S » 1 » 3, Apariciones: 1, Probabilidad: 0.07692307692307693, Entropía: 0.08568795017744898
+Combinación: male » C » 0 » 1, Apariciones: 1, Probabilidad: 0.5, Entropía: 0.1505149978319906
+Combinación: male » C » 0 » 2, Apariciones: 0, Probabilidad: 0, Entropía: 0
+Combinación: male » C » 0 » 3, Apariciones: 1, Probabilidad: 0.5, Entropía: 0.1505149978319906
+Combinación: male » C » 1 » 1, Apariciones: 1, Probabilidad: 0.5, Entropía: 0.1505149978319906
+Combinación: male » C » 1 » 2, Apariciones: 0, Probabilidad: 0, Entropía: 0
+Combinación: male » C » 1 » 3, Apariciones: 1, Probabilidad: 0.5, Entropía: 0.1505149978319906
+Combinación: male » Q » 0 » 1, Apariciones: 0, Probabilidad: 0, Entropía: 0
+Combinación: male » Q » 0 » 2, Apariciones: 0, Probabilidad: 0, Entropía: 0
+Combinación: male » Q » 0 » 3, Apariciones: 3, Probabilidad: 1, Entropía: 0
+Combinación: male » Q » 1 » 1, Apariciones: 0, Probabilidad: 0, Entropía: 0
+Combinación: male » Q » 1 » 2, Apariciones: 0, Probabilidad: 0, Entropía: 0
+Combinación: male » Q » 1 » 3, Apariciones: 0, Probabilidad: 0, Entropía: 0
+Combinación: male » S » 0 » 1, Apariciones: 4, Probabilidad: 0.23529411764705882, Entropía: 0.1478562188353674
+Combinación: male » S » 0 » 2, Apariciones: 4, Probabilidad: 0.23529411764705882, Entropía: 0.1478562188353674
+Combinación: male » S » 0 » 3, Apariciones: 9, Probabilidad: 0.5294117647058824, Entropía: 0.14622692396767892
+Combinación: male » S » 1 » 1, Apariciones: 5, Probabilidad: 0.625, Entropía: 0.127574989159953
+Combinación: male » S » 1 » 2, Apariciones: 0, Probabilidad: 0, Entropía: 0
+Combinación: male » S » 1 » 3, Apariciones: 3, Probabilidad: 0.375, Entropía: 0.15973827460210543
+Entropía Total: 1.6297128927792743
+-------------------------------------------------
+Arbol: Sex » Embarked » Pclass
+Combinación: female » C » 1, Apariciones: 0, Probabilidad: 0, Entropía: 0
+Combinación: female » C » 2, Apariciones: 0, Probabilidad: 0, Entropía: 0
+Combinación: female » C » 3, Apariciones: 1, Probabilidad: 1, Entropía: 0
+Combinación: female » Q » 1, Apariciones: 0, Probabilidad: 0, Entropía: 0
+Combinación: female » Q » 2, Apariciones: 0, Probabilidad: 0, Entropía: 0
+Combinación: female » Q » 3, Apariciones: 0, Probabilidad: 0, Entropía: 0
+Combinación: female » S » 1, Apariciones: 2, Probabilidad: 0.11764705882352941, Entropía: 0.10934340302521091
+Combinación: female » S » 2, Apariciones: 10, Probabilidad: 0.5882352941176471, Entropía: 0.13555818904604347
+Combinación: female » S » 3, Apariciones: 5, Probabilidad: 0.29411764705882354, Entropía: 0.15631732854183975
+Combinación: male » C » 1, Apariciones: 2, Probabilidad: 0.5, Entropía: 0.1505149978319906
+Combinación: male » C » 2, Apariciones: 0, Probabilidad: 0, Entropía: 0
+Combinación: male » C » 3, Apariciones: 2, Probabilidad: 0.5, Entropía: 0.1505149978319906
+Combinación: male » Q » 1, Apariciones: 0, Probabilidad: 0, Entropía: 0
+Combinación: male » Q » 2, Apariciones: 0, Probabilidad: 0, Entropía: 0
+Combinación: male » Q » 3, Apariciones: 3, Probabilidad: 1, Entropía: 0
+Combinación: male » S » 1, Apariciones: 9, Probabilidad: 0.36, Entropía: 0.15973109972377658
+Combinación: male » S » 2, Apariciones: 4, Probabilidad: 0.16, Entropía: 0.12734080277505203
+Combinación: male » S » 3, Apariciones: 12, Probabilidad: 0.48, Entropía: 0.15300420605971812
+Entropía Total: 1.142325024835622
+-------------------------------------------------
+Arbol: Sex » Embarked » Pclass » Survived
+Combinación: female » C » 1 » 0, Apariciones: 0, Probabilidad: 0, Entropía: 0
+Combinación: female » C » 1 » 1, Apariciones: 0, Probabilidad: 0, Entropía: 0
+Combinación: female » C » 2 » 0, Apariciones: 0, Probabilidad: 0, Entropía: 0
+Combinación: female » C » 2 » 1, Apariciones: 0, Probabilidad: 0, Entropía: 0
+Combinación: female » C » 3 » 0, Apariciones: 0, Probabilidad: 0, Entropía: 0
+Combinación: female » C » 3 » 1, Apariciones: 1, Probabilidad: 1, Entropía: 0
+Combinación: female » Q » 1 » 0, Apariciones: 0, Probabilidad: 0, Entropía: 0
+Combinación: female » Q » 1 » 1, Apariciones: 0, Probabilidad: 0, Entropía: 0
+Combinación: female » Q » 2 » 0, Apariciones: 0, Probabilidad: 0, Entropía: 0
+Combinación: female » Q » 2 » 1, Apariciones: 0, Probabilidad: 0, Entropía: 0
+Combinación: female » Q » 3 » 0, Apariciones: 0, Probabilidad: 0, Entropía: 0
+Combinación: female » Q » 3 » 1, Apariciones: 0, Probabilidad: 0, Entropía: 0
+Combinación: female » S » 1 » 0, Apariciones: 0, Probabilidad: 0, Entropía: 0
+Combinación: female » S » 1 » 1, Apariciones: 2, Probabilidad: 1, Entropía: 0
+Combinación: female » S » 2 » 0, Apariciones: 0, Probabilidad: 0, Entropía: 0
+Combinación: female » S » 2 » 1, Apariciones: 10, Probabilidad: 1, Entropía: 0
+Combinación: female » S » 3 » 0, Apariciones: 4, Probabilidad: 0.8, Entropía: 0.07752801040644512
+Combinación: female » S » 3 » 1, Apariciones: 1, Probabilidad: 0.2, Entropía: 0.13979400086720375
+Combinación: male » C » 1 » 0, Apariciones: 1, Probabilidad: 0.5, Entropía: 0.1505149978319906
+Combinación: male » C » 1 » 1, Apariciones: 1, Probabilidad: 0.5, Entropía: 0.1505149978319906
+Combinación: male » C » 2 » 0, Apariciones: 0, Probabilidad: 0, Entropía: 0
+Combinación: male » C » 2 » 1, Apariciones: 0, Probabilidad: 0, Entropía: 0
+Combinación: male » C » 3 » 0, Apariciones: 1, Probabilidad: 0.5, Entropía: 0.1505149978319906
+Combinación: male » C » 3 » 1, Apariciones: 1, Probabilidad: 0.5, Entropía: 0.1505149978319906
+Combinación: male » Q » 1 » 0, Apariciones: 0, Probabilidad: 0, Entropía: 0
+Combinación: male » Q » 1 » 1, Apariciones: 0, Probabilidad: 0, Entropía: 0
+Combinación: male » Q » 2 » 0, Apariciones: 0, Probabilidad: 0, Entropía: 0
+Combinación: male » Q » 2 » 1, Apariciones: 0, Probabilidad: 0, Entropía: 0
+Combinación: male » Q » 3 » 0, Apariciones: 3, Probabilidad: 1, Entropía: 0
+Combinación: male » Q » 3 » 1, Apariciones: 0, Probabilidad: 0, Entropía: 0
+Combinación: male » S » 1 » 0, Apariciones: 4, Probabilidad: 0.4444444444444444, Entropía: 0.15652556360505002
+Combinación: male » S » 1 » 1, Apariciones: 5, Probabilidad: 0.5555555555555556, Entropía: 0.14181805839072556
+Combinación: male » S » 2 » 0, Apariciones: 4, Probabilidad: 1, Entropía: 0
+Combinación: male » S » 2 » 1, Apariciones: 0, Probabilidad: 0, Entropía: 0
+Combinación: male » S » 3 » 0, Apariciones: 9, Probabilidad: 0.75, Entropía: 0.09370405245622496
+Combinación: male » S » 3 » 1, Apariciones: 3, Probabilidad: 0.25, Entropía: 0.1505149978319906
+Entropía Total: 1.3619446748856023
+-------------------------------------------------
+Arbol: Embarked
+Combinación: C, Apariciones: 5, Probabilidad: 0.1, Entropía: 0.1
+Combinación: Q, Apariciones: 3, Probabilidad: 0.06, Entropía: 0.07331092497698138
+Combinación: S, Apariciones: 42, Probabilidad: 0.84, Entropía: 0.06360539970801941
+Entropía Total: 0.2369163246850008
+-------------------------------------------------
+Arbol: Embarked » Survived
+Combinación: C » 0, Apariciones: 2, Probabilidad: 0.4, Entropía: 0.15917600346881505
+Combinación: C » 1, Apariciones: 3, Probabilidad: 0.6, Entropía: 0.1331092497698138
+Combinación: Q » 0, Apariciones: 3, Probabilidad: 1, Entropía: 0
+Combinación: Q » 1, Apariciones: 0, Probabilidad: 0, Entropía: 0
+Combinación: S » 0, Apariciones: 21, Probabilidad: 0.5, Entropía: 0.1505149978319906
+Combinación: S » 1, Apariciones: 21, Probabilidad: 0.5, Entropía: 0.1505149978319906
+Entropía Total: 0.5933152489026101
+-------------------------------------------------
+Arbol: Embarked » Survived » Pclass
+Combinación: C » 0 » 1, Apariciones: 1, Probabilidad: 0.5, Entropía: 0.1505149978319906
+Combinación: C » 0 » 2, Apariciones: 0, Probabilidad: 0, Entropía: 0
+Combinación: C » 0 » 3, Apariciones: 1, Probabilidad: 0.5, Entropía: 0.1505149978319906
+Combinación: C » 1 » 1, Apariciones: 1, Probabilidad: 0.3333333333333333, Entropía: 0.1590404182398875
+Combinación: C » 1 » 2, Apariciones: 0, Probabilidad: 0, Entropía: 0
+Combinación: C » 1 » 3, Apariciones: 2, Probabilidad: 0.6666666666666666, Entropía: 0.1173941727037875
+Combinación: Q » 0 » 1, Apariciones: 0, Probabilidad: 0, Entropía: 0
+Combinación: Q » 0 » 2, Apariciones: 0, Probabilidad: 0, Entropía: 0
+Combinación: Q » 0 » 3, Apariciones: 3, Probabilidad: 1, Entropía: 0
+Combinación: Q » 1 » 1, Apariciones: 0, Probabilidad: 0, Entropía: 0
+Combinación: Q » 1 » 2, Apariciones: 0, Probabilidad: 0, Entropía: 0
+Combinación: Q » 1 » 3, Apariciones: 0, Probabilidad: 0, Entropía: 0
+Combinación: S » 0 » 1, Apariciones: 4, Probabilidad: 0.19047619047619047, Entropía: 0.13717320064875368
+Combinación: S » 0 » 2, Apariciones: 4, Probabilidad: 0.19047619047619047, Entropía: 0.13717320064875368
+Combinación: S » 0 » 3, Apariciones: 13, Probabilidad: 0.6190476190476191, Entropía: 0.1289327262643844
+Combinación: S » 1 » 1, Apariciones: 7, Probabilidad: 0.3333333333333333, Entropía: 0.1590404182398875
+Combinación: S » 1 » 2, Apariciones: 10, Probabilidad: 0.47619047619047616, Entropía: 0.1534377593971044
+Combinación: S » 1 » 3, Apariciones: 4, Probabilidad: 0.19047619047619047, Entropía: 0.13717320064875368
+Entropía Total: 1.4303950924552935
+-------------------------------------------------
+Arbol: Embarked » Survived » Pclass » Sex
+Combinación: C » 0 » 1 » female, Apariciones: 0, Probabilidad: 0, Entropía: 0
+Combinación: C » 0 » 1 » male, Apariciones: 1, Probabilidad: 1, Entropía: 0
+Combinación: C » 0 » 2 » female, Apariciones: 0, Probabilidad: 0, Entropía: 0
+Combinación: C » 0 » 2 » male, Apariciones: 0, Probabilidad: 0, Entropía: 0
+Combinación: C » 0 » 3 » female, Apariciones: 0, Probabilidad: 0, Entropía: 0
+Combinación: C » 0 » 3 » male, Apariciones: 1, Probabilidad: 1, Entropía: 0
+Combinación: C » 1 » 1 » female, Apariciones: 0, Probabilidad: 0, Entropía: 0
+Combinación: C » 1 » 1 » male, Apariciones: 1, Probabilidad: 1, Entropía: 0
+Combinación: C » 1 » 2 » female, Apariciones: 0, Probabilidad: 0, Entropía: 0
+Combinación: C » 1 » 2 » male, Apariciones: 0, Probabilidad: 0, Entropía: 0
+Combinación: C » 1 » 3 » female, Apariciones: 1, Probabilidad: 0.5, Entropía: 0.1505149978319906
+Combinación: C » 1 » 3 » male, Apariciones: 1, Probabilidad: 0.5, Entropía: 0.1505149978319906
+Combinación: Q » 0 » 1 » female, Apariciones: 0, Probabilidad: 0, Entropía: 0
+Combinación: Q » 0 » 1 » male, Apariciones: 0, Probabilidad: 0, Entropía: 0
+Combinación: Q » 0 » 2 » female, Apariciones: 0, Probabilidad: 0, Entropía: 0
+Combinación: Q » 0 » 2 » male, Apariciones: 0, Probabilidad: 0, Entropía: 0
+Combinación: Q » 0 » 3 » female, Apariciones: 0, Probabilidad: 0, Entropía: 0
+Combinación: Q » 0 » 3 » male, Apariciones: 3, Probabilidad: 1, Entropía: 0
+Combinación: Q » 1 » 1 » female, Apariciones: 0, Probabilidad: 0, Entropía: 0
+Combinación: Q » 1 » 1 » male, Apariciones: 0, Probabilidad: 0, Entropía: 0
+Combinación: Q » 1 » 2 » female, Apariciones: 0, Probabilidad: 0, Entropía: 0
+Combinación: Q » 1 » 2 » male, Apariciones: 0, Probabilidad: 0, Entropía: 0
+Combinación: Q » 1 » 3 » female, Apariciones: 0, Probabilidad: 0, Entropía: 0
+Combinación: Q » 1 » 3 » male, Apariciones: 0, Probabilidad: 0, Entropía: 0
+Combinación: S » 0 » 1 » female, Apariciones: 0, Probabilidad: 0, Entropía: 0
+Combinación: S » 0 » 1 » male, Apariciones: 4, Probabilidad: 1, Entropía: 0
+Combinación: S » 0 » 2 » female, Apariciones: 0, Probabilidad: 0, Entropía: 0
+Combinación: S » 0 » 2 » male, Apariciones: 4, Probabilidad: 1, Entropía: 0
+Combinación: S » 0 » 3 » female, Apariciones: 4, Probabilidad: 0.3076923076923077, Entropía: 0.15750257260888442
+Combinación: S » 0 » 3 » male, Apariciones: 9, Probabilidad: 0.6923076923076923, Entropía: 0.11056212198520055
+Combinación: S » 1 » 1 » female, Apariciones: 2, Probabilidad: 0.2857142857142857, Entropía: 0.15544801267150732
+Combinación: S » 1 » 1 » male, Apariciones: 5, Probabilidad: 0.7142857142857143, Entropía: 0.10437716834159858
+Combinación: S » 1 » 2 » female, Apariciones: 10, Probabilidad: 1, Entropía: 0
+Combinación: S » 1 » 2 » male, Apariciones: 0, Probabilidad: 0, Entropía: 0
+Combinación: S » 1 » 3 » female, Apariciones: 1, Probabilidad: 0.25, Entropía: 0.1505149978319906
+Combinación: S » 1 » 3 » male, Apariciones: 3, Probabilidad: 0.75, Entropía: 0.09370405245622496
+Entropía Total: 1.0731389215593876
+-------------------------------------------------
+Arbol: Embarked » Survived » Sex
+Combinación: C » 0 » female, Apariciones: 0, Probabilidad: 0, Entropía: 0
+Combinación: C » 0 » male, Apariciones: 2, Probabilidad: 1, Entropía: 0
+Combinación: C » 1 » female, Apariciones: 1, Probabilidad: 0.3333333333333333, Entropía: 0.1590404182398875
+Combinación: C » 1 » male, Apariciones: 2, Probabilidad: 0.6666666666666666, Entropía: 0.1173941727037875
+Combinación: Q » 0 » female, Apariciones: 0, Probabilidad: 0, Entropía: 0
+Combinación: Q » 0 » male, Apariciones: 3, Probabilidad: 1, Entropía: 0
+Combinación: Q » 1 » female, Apariciones: 0, Probabilidad: 0, Entropía: 0
+Combinación: Q » 1 » male, Apariciones: 0, Probabilidad: 0, Entropía: 0
+Combinación: S » 0 » female, Apariciones: 4, Probabilidad: 0.19047619047619047, Entropía: 0.13717320064875368
+Combinación: S » 0 » male, Apariciones: 17, Probabilidad: 0.8095238095238095, Entropía: 0.07429030224028432
+Combinación: S » 1 » female, Apariciones: 13, Probabilidad: 0.6190476190476191, Entropía: 0.1289327262643844
+Combinación: S » 1 » male, Apariciones: 8, Probabilidad: 0.38095238095238093, Entropía: 0.15966830771122884
+Entropía Total: 0.7764991278083262
+-------------------------------------------------
+Arbol: Embarked » Survived » Sex » Pclass
+Combinación: C » 0 » female » 1, Apariciones: 0, Probabilidad: 0, Entropía: 0
+Combinación: C » 0 » female » 2, Apariciones: 0, Probabilidad: 0, Entropía: 0
+Combinación: C » 0 » female » 3, Apariciones: 0, Probabilidad: 0, Entropía: 0
+Combinación: C » 0 » male » 1, Apariciones: 1, Probabilidad: 0.5, Entropía: 0.1505149978319906
+Combinación: C » 0 » male » 2, Apariciones: 0, Probabilidad: 0, Entropía: 0
+Combinación: C » 0 » male » 3, Apariciones: 1, Probabilidad: 0.5, Entropía: 0.1505149978319906
+Combinación: C » 1 » female » 1, Apariciones: 0, Probabilidad: 0, Entropía: 0
+Combinación: C » 1 » female » 2, Apariciones: 0, Probabilidad: 0, Entropía: 0
+Combinación: C » 1 » female » 3, Apariciones: 1, Probabilidad: 1, Entropía: 0
+Combinación: C » 1 » male » 1, Apariciones: 1, Probabilidad: 0.5, Entropía: 0.1505149978319906
+Combinación: C » 1 » male » 2, Apariciones: 0, Probabilidad: 0, Entropía: 0
+Combinación: C » 1 » male » 3, Apariciones: 1, Probabilidad: 0.5, Entropía: 0.1505149978319906
+Combinación: Q » 0 » female » 1, Apariciones: 0, Probabilidad: 0, Entropía: 0
+Combinación: Q » 0 » female » 2, Apariciones: 0, Probabilidad: 0, Entropía: 0
+Combinación: Q » 0 » female » 3, Apariciones: 0, Probabilidad: 0, Entropía: 0
+Combinación: Q » 0 » male » 1, Apariciones: 0, Probabilidad: 0, Entropía: 0
+Combinación: Q » 0 » male » 2, Apariciones: 0, Probabilidad: 0, Entropía: 0
+Combinación: Q » 0 » male » 3, Apariciones: 3, Probabilidad: 1, Entropía: 0
+Combinación: Q » 1 » female » 1, Apariciones: 0, Probabilidad: 0, Entropía: 0
+Combinación: Q » 1 » female » 2, Apariciones: 0, Probabilidad: 0, Entropía: 0
+Combinación: Q » 1 » female » 3, Apariciones: 0, Probabilidad: 0, Entropía: 0
+Combinación: Q » 1 » male » 1, Apariciones: 0, Probabilidad: 0, Entropía: 0
+Combinación: Q » 1 » male » 2, Apariciones: 0, Probabilidad: 0, Entropía: 0
+Combinación: Q » 1 » male » 3, Apariciones: 0, Probabilidad: 0, Entropía: 0
+Combinación: S » 0 » female » 1, Apariciones: 0, Probabilidad: 0, Entropía: 0
+Combinación: S » 0 » female » 2, Apariciones: 0, Probabilidad: 0, Entropía: 0
+Combinación: S » 0 » female » 3, Apariciones: 4, Probabilidad: 1, Entropía: 0
+Combinación: S » 0 » male » 1, Apariciones: 4, Probabilidad: 0.23529411764705882, Entropía: 0.1478562188353674
+Combinación: S » 0 » male » 2, Apariciones: 4, Probabilidad: 0.23529411764705882, Entropía: 0.1478562188353674
+Combinación: S » 0 » male » 3, Apariciones: 9, Probabilidad: 0.5294117647058824, Entropía: 0.14622692396767892
+Combinación: S » 1 » female » 1, Apariciones: 2, Probabilidad: 0.15384615384615385, Entropía: 0.1250635933296701
+Combinación: S » 1 » female » 2, Apariciones: 10, Probabilidad: 0.7692307692307693, Entropía: 0.08764873254372058
+Combinación: S » 1 » female » 3, Apariciones: 1, Probabilidad: 0.07692307692307693, Entropía: 0.08568795017744898
+Combinación: S » 1 » male » 1, Apariciones: 5, Probabilidad: 0.625, Entropía: 0.127574989159953
+Combinación: S » 1 » male » 2, Apariciones: 0, Probabilidad: 0, Entropía: 0
+Combinación: S » 1 » male » 3, Apariciones: 3, Probabilidad: 0.375, Entropía: 0.15973827460210543
+Entropía Total: 1.6297128927792741
+-------------------------------------------------
+Arbol: Embarked » Pclass
+Combinación: C » 1, Apariciones: 2, Probabilidad: 0.4, Entropía: 0.15917600346881505
+Combinación: C » 2, Apariciones: 0, Probabilidad: 0, Entropía: 0
+Combinación: C » 3, Apariciones: 3, Probabilidad: 0.6, Entropía: 0.1331092497698138
+Combinación: Q » 1, Apariciones: 0, Probabilidad: 0, Entropía: 0
+Combinación: Q » 2, Apariciones: 0, Probabilidad: 0, Entropía: 0
+Combinación: Q » 3, Apariciones: 3, Probabilidad: 1, Entropía: 0
+Combinación: S » 1, Apariciones: 11, Probabilidad: 0.2619047619047619, Entropía: 0.15239101565801025
+Combinación: S » 2, Apariciones: 14, Probabilidad: 0.3333333333333333, Entropía: 0.1590404182398875
+Combinación: S » 3, Apariciones: 17, Probabilidad: 0.40476190476190477, Entropía: 0.15899062555556315
+Entropía Total: 0.7627073126920898
+-------------------------------------------------
+Arbol: Embarked » Pclass » Survived
+Combinación: C » 1 » 0, Apariciones: 1, Probabilidad: 0.5, Entropía: 0.1505149978319906
+Combinación: C » 1 » 1, Apariciones: 1, Probabilidad: 0.5, Entropía: 0.1505149978319906
+Combinación: C » 2 » 0, Apariciones: 0, Probabilidad: 0, Entropía: 0
+Combinación: C » 2 » 1, Apariciones: 0, Probabilidad: 0, Entropía: 0
+Combinación: C » 3 » 0, Apariciones: 1, Probabilidad: 0.3333333333333333, Entropía: 0.1590404182398875
+Combinación: C » 3 » 1, Apariciones: 2, Probabilidad: 0.6666666666666666, Entropía: 0.1173941727037875
+Combinación: Q » 1 » 0, Apariciones: 0, Probabilidad: 0, Entropía: 0
+Combinación: Q » 1 » 1, Apariciones: 0, Probabilidad: 0, Entropía: 0
+Combinación: Q » 2 » 0, Apariciones: 0, Probabilidad: 0, Entropía: 0
+Combinación: Q » 2 » 1, Apariciones: 0, Probabilidad: 0, Entropía: 0
+Combinación: Q » 3 » 0, Apariciones: 3, Probabilidad: 1, Entropía: 0
+Combinación: Q » 3 » 1, Apariciones: 0, Probabilidad: 0, Entropía: 0
+Combinación: S » 1 » 0, Apariciones: 4, Probabilidad: 0.36363636363636365, Entropía: 0.1597573432110046
+Combinación: S » 1 » 1, Apariciones: 7, Probabilidad: 0.6363636363636364, Entropía: 0.12491477418252522
+Combinación: S » 2 » 0, Apariciones: 4, Probabilidad: 0.2857142857142857, Entropía: 0.15544801267150732
+Combinación: S » 2 » 1, Apariciones: 10, Probabilidad: 0.7142857142857143, Entropía: 0.10437716834159858
+Combinación: S » 3 » 0, Apariciones: 13, Probabilidad: 0.7647058823529411, Entropía: 0.0890924939958049
+Combinación: S » 3 » 1, Apariciones: 4, Probabilidad: 0.23529411764705882, Entropía: 0.1478562188353674
+Entropía Total: 1.3589105978454643
+-------------------------------------------------
+Arbol: Embarked » Pclass » Survived » Sex
+Combinación: C » 1 » 0 » female, Apariciones: 0, Probabilidad: 0, Entropía: 0
+Combinación: C » 1 » 0 » male, Apariciones: 1, Probabilidad: 1, Entropía: 0
+Combinación: C » 1 » 1 » female, Apariciones: 0, Probabilidad: 0, Entropía: 0
+Combinación: C » 1 » 1 » male, Apariciones: 1, Probabilidad: 1, Entropía: 0
+Combinación: C » 2 » 0 » female, Apariciones: 0, Probabilidad: 0, Entropía: 0
+Combinación: C » 2 » 0 » male, Apariciones: 0, Probabilidad: 0, Entropía: 0
+Combinación: C » 2 » 1 » female, Apariciones: 0, Probabilidad: 0, Entropía: 0
+Combinación: C » 2 » 1 » male, Apariciones: 0, Probabilidad: 0, Entropía: 0
+Combinación: C » 3 » 0 » female, Apariciones: 0, Probabilidad: 0, Entropía: 0
+Combinación: C » 3 » 0 » male, Apariciones: 1, Probabilidad: 1, Entropía: 0
+Combinación: C » 3 » 1 » female, Apariciones: 1, Probabilidad: 0.5, Entropía: 0.1505149978319906
+Combinación: C » 3 » 1 » male, Apariciones: 1, Probabilidad: 0.5, Entropía: 0.1505149978319906
+Combinación: Q » 1 » 0 » female, Apariciones: 0, Probabilidad: 0, Entropía: 0
+Combinación: Q » 1 » 0 » male, Apariciones: 0, Probabilidad: 0, Entropía: 0
+Combinación: Q » 1 » 1 » female, Apariciones: 0, Probabilidad: 0, Entropía: 0
+Combinación: Q » 1 » 1 » male, Apariciones: 0, Probabilidad: 0, Entropía: 0
+Combinación: Q » 2 » 0 » female, Apariciones: 0, Probabilidad: 0, Entropía: 0
+Combinación: Q » 2 » 0 » male, Apariciones: 0, Probabilidad: 0, Entropía: 0
+Combinación: Q » 2 » 1 » female, Apariciones: 0, Probabilidad: 0, Entropía: 0
+Combinación: Q » 2 » 1 » male, Apariciones: 0, Probabilidad: 0, Entropía: 0
+Combinación: Q » 3 » 0 » female, Apariciones: 0, Probabilidad: 0, Entropía: 0
+Combinación: Q » 3 » 0 » male, Apariciones: 3, Probabilidad: 1, Entropía: 0
+Combinación: Q » 3 » 1 » female, Apariciones: 0, Probabilidad: 0, Entropía: 0
+Combinación: Q » 3 » 1 » male, Apariciones: 0, Probabilidad: 0, Entropía: 0
+Combinación: S » 1 » 0 » female, Apariciones: 0, Probabilidad: 0, Entropía: 0
+Combinación: S » 1 » 0 » male, Apariciones: 4, Probabilidad: 1, Entropía: 0
+Combinación: S » 1 » 1 » female, Apariciones: 2, Probabilidad: 0.2857142857142857, Entropía: 0.15544801267150732
+Combinación: S » 1 » 1 » male, Apariciones: 5, Probabilidad: 0.7142857142857143, Entropía: 0.10437716834159858
+Combinación: S » 2 » 0 » female, Apariciones: 0, Probabilidad: 0, Entropía: 0
+Combinación: S » 2 » 0 » male, Apariciones: 4, Probabilidad: 1, Entropía: 0
+Combinación: S » 2 » 1 » female, Apariciones: 10, Probabilidad: 1, Entropía: 0
+Combinación: S » 2 » 1 » male, Apariciones: 0, Probabilidad: 0, Entropía: 0
+Combinación: S » 3 » 0 » female, Apariciones: 4, Probabilidad: 0.3076923076923077, Entropía: 0.15750257260888442
+Combinación: S » 3 » 0 » male, Apariciones: 9, Probabilidad: 0.6923076923076923, Entropía: 0.11056212198520055
+Combinación: S » 3 » 1 » female, Apariciones: 1, Probabilidad: 0.25, Entropía: 0.1505149978319906
+Combinación: S » 3 » 1 » male, Apariciones: 3, Probabilidad: 0.75, Entropía: 0.09370405245622496
+Entropía Total: 1.0731389215593876
+-------------------------------------------------
+Arbol: Embarked » Pclass » Sex
+Combinación: C » 1 » female, Apariciones: 0, Probabilidad: 0, Entropía: 0
+Combinación: C » 1 » male, Apariciones: 2, Probabilidad: 1, Entropía: 0
+Combinación: C » 2 » female, Apariciones: 0, Probabilidad: 0, Entropía: 0
+Combinación: C » 2 » male, Apariciones: 0, Probabilidad: 0, Entropía: 0
+Combinación: C » 3 » female, Apariciones: 1, Probabilidad: 0.3333333333333333, Entropía: 0.1590404182398875
+Combinación: C » 3 » male, Apariciones: 2, Probabilidad: 0.6666666666666666, Entropía: 0.1173941727037875
+Combinación: Q » 1 » female, Apariciones: 0, Probabilidad: 0, Entropía: 0
+Combinación: Q » 1 » male, Apariciones: 0, Probabilidad: 0, Entropía: 0
+Combinación: Q » 2 » female, Apariciones: 0, Probabilidad: 0, Entropía: 0
+Combinación: Q » 2 » male, Apariciones: 0, Probabilidad: 0, Entropía: 0
+Combinación: Q » 3 » female, Apariciones: 0, Probabilidad: 0, Entropía: 0
+Combinación: Q » 3 » male, Apariciones: 3, Probabilidad: 1, Entropía: 0
+Combinación: S » 1 » female, Apariciones: 2, Probabilidad: 0.18181818181818182, Entropía: 0.13461139808986253
+Combinación: S » 1 » male, Apariciones: 9, Probabilidad: 0.8181818181818182, Entropía: 0.07130468922455467
+Combinación: S » 2 » female, Apariciones: 10, Probabilidad: 0.7142857142857143, Entropía: 0.10437716834159858
+Combinación: S » 2 » male, Apariciones: 4, Probabilidad: 0.2857142857142857, Entropía: 0.15544801267150732
+Combinación: S » 3 » female, Apariciones: 5, Probabilidad: 0.29411764705882354, Entropía: 0.15631732854183975
+Combinación: S » 3 » male, Apariciones: 12, Probabilidad: 0.7058823529411765, Entropía: 0.10677718258634052
+Entropía Total: 1.0052703703993784
+-------------------------------------------------
+Arbol: Embarked » Pclass » Sex » Survived
+Combinación: C » 1 » female » 0, Apariciones: 0, Probabilidad: 0, Entropía: 0
+Combinación: C » 1 » female » 1, Apariciones: 0, Probabilidad: 0, Entropía: 0
+Combinación: C » 1 » male » 0, Apariciones: 1, Probabilidad: 0.5, Entropía: 0.1505149978319906
+Combinación: C » 1 » male » 1, Apariciones: 1, Probabilidad: 0.5, Entropía: 0.1505149978319906
+Combinación: C » 2 » female » 0, Apariciones: 0, Probabilidad: 0, Entropía: 0
+Combinación: C » 2 » female » 1, Apariciones: 0, Probabilidad: 0, Entropía: 0
+Combinación: C » 2 » male » 0, Apariciones: 0, Probabilidad: 0, Entropía: 0
+Combinación: C » 2 » male » 1, Apariciones: 0, Probabilidad: 0, Entropía: 0
+Combinación: C » 3 » female » 0, Apariciones: 0, Probabilidad: 0, Entropía: 0
+Combinación: C » 3 » female » 1, Apariciones: 1, Probabilidad: 1, Entropía: 0
+Combinación: C » 3 » male » 0, Apariciones: 1, Probabilidad: 0.5, Entropía: 0.1505149978319906
+Combinación: C » 3 » male » 1, Apariciones: 1, Probabilidad: 0.5, Entropía: 0.1505149978319906
+Combinación: Q » 1 » female » 0, Apariciones: 0, Probabilidad: 0, Entropía: 0
+Combinación: Q » 1 » female » 1, Apariciones: 0, Probabilidad: 0, Entropía: 0
+Combinación: Q » 1 » male » 0, Apariciones: 0, Probabilidad: 0, Entropía: 0
+Combinación: Q » 1 » male » 1, Apariciones: 0, Probabilidad: 0, Entropía: 0
+Combinación: Q » 2 » female » 0, Apariciones: 0, Probabilidad: 0, Entropía: 0
+Combinación: Q » 2 » female » 1, Apariciones: 0, Probabilidad: 0, Entropía: 0
+Combinación: Q » 2 » male » 0, Apariciones: 0, Probabilidad: 0, Entropía: 0
+Combinación: Q » 2 » male » 1, Apariciones: 0, Probabilidad: 0, Entropía: 0
+Combinación: Q » 3 » female » 0, Apariciones: 0, Probabilidad: 0, Entropía: 0
+Combinación: Q » 3 » female » 1, Apariciones: 0, Probabilidad: 0, Entropía: 0
+Combinación: Q » 3 » male » 0, Apariciones: 3, Probabilidad: 1, Entropía: 0
+Combinación: Q » 3 » male » 1, Apariciones: 0, Probabilidad: 0, Entropía: 0
+Combinación: S » 1 » female » 0, Apariciones: 0, Probabilidad: 0, Entropía: 0
+Combinación: S » 1 » female » 1, Apariciones: 2, Probabilidad: 1, Entropía: 0
+Combinación: S » 1 » male » 0, Apariciones: 4, Probabilidad: 0.4444444444444444, Entropía: 0.15652556360505002
+Combinación: S » 1 » male » 1, Apariciones: 5, Probabilidad: 0.5555555555555556, Entropía: 0.14181805839072556
+Combinación: S » 2 » female » 0, Apariciones: 0, Probabilidad: 0, Entropía: 0
+Combinación: S » 2 » female » 1, Apariciones: 10, Probabilidad: 1, Entropía: 0
+Combinación: S » 2 » male » 0, Apariciones: 4, Probabilidad: 1, Entropía: 0
+Combinación: S » 2 » male » 1, Apariciones: 0, Probabilidad: 0, Entropía: 0
+Combinación: S » 3 » female » 0, Apariciones: 4, Probabilidad: 0.8, Entropía: 0.07752801040644512
+Combinación: S » 3 » female » 1, Apariciones: 1, Probabilidad: 0.2, Entropía: 0.13979400086720375
+Combinación: S » 3 » male » 0, Apariciones: 9, Probabilidad: 0.75, Entropía: 0.09370405245622496
+Combinación: S » 3 » male » 1, Apariciones: 3, Probabilidad: 0.25, Entropía: 0.1505149978319906
+Entropía Total: 1.3619446748856023
+-------------------------------------------------
+Arbol: Embarked » Sex
+Combinación: C » female, Apariciones: 1, Probabilidad: 0.2, Entropía: 0.13979400086720375
+Combinación: C » male, Apariciones: 4, Probabilidad: 0.8, Entropía: 0.07752801040644512
+Combinación: Q » female, Apariciones: 0, Probabilidad: 0, Entropía: 0
+Combinación: Q » male, Apariciones: 3, Probabilidad: 1, Entropía: 0
+Combinación: S » female, Apariciones: 17, Probabilidad: 0.40476190476190477, Entropía: 0.15899062555556315
+Combinación: S » male, Apariciones: 25, Probabilidad: 0.5952380952380952, Entropía: 0.134112667693966
+Entropía Total: 0.510425304523178
+-------------------------------------------------
+Arbol: Embarked » Sex » Survived
+Combinación: C » female » 0, Apariciones: 0, Probabilidad: 0, Entropía: 0
+Combinación: C » female » 1, Apariciones: 1, Probabilidad: 1, Entropía: 0
+Combinación: C » male » 0, Apariciones: 2, Probabilidad: 0.5, Entropía: 0.1505149978319906
+Combinación: C » male » 1, Apariciones: 2, Probabilidad: 0.5, Entropía: 0.1505149978319906
+Combinación: Q » female » 0, Apariciones: 0, Probabilidad: 0, Entropía: 0
+Combinación: Q » female » 1, Apariciones: 0, Probabilidad: 0, Entropía: 0
+Combinación: Q » male » 0, Apariciones: 3, Probabilidad: 1, Entropía: 0
+Combinación: Q » male » 1, Apariciones: 0, Probabilidad: 0, Entropía: 0
+Combinación: S » female » 0, Apariciones: 4, Probabilidad: 0.23529411764705882, Entropía: 0.1478562188353674
+Combinación: S » female » 1, Apariciones: 13, Probabilidad: 0.7647058823529411, Entropía: 0.0890924939958049
+Combinación: S » male » 0, Apariciones: 17, Probabilidad: 0.68, Entropía: 0.1138939393597593
+Combinación: S » male » 1, Apariciones: 8, Probabilidad: 0.32, Entropía: 0.15835200693763007
+Entropía Total: 0.8102246547925429
+-------------------------------------------------
+Arbol: Embarked » Sex » Survived » Pclass
+Combinación: C » female » 0 » 1, Apariciones: 0, Probabilidad: 0, Entropía: 0
+Combinación: C » female » 0 » 2, Apariciones: 0, Probabilidad: 0, Entropía: 0
+Combinación: C » female » 0 » 3, Apariciones: 0, Probabilidad: 0, Entropía: 0
+Combinación: C » female » 1 » 1, Apariciones: 0, Probabilidad: 0, Entropía: 0
+Combinación: C » female » 1 » 2, Apariciones: 0, Probabilidad: 0, Entropía: 0
+Combinación: C » female » 1 » 3, Apariciones: 1, Probabilidad: 1, Entropía: 0
+Combinación: C » male » 0 » 1, Apariciones: 1, Probabilidad: 0.5, Entropía: 0.1505149978319906
+Combinación: C » male » 0 » 2, Apariciones: 0, Probabilidad: 0, Entropía: 0
+Combinación: C » male » 0 » 3, Apariciones: 1, Probabilidad: 0.5, Entropía: 0.1505149978319906
+Combinación: C » male » 1 » 1, Apariciones: 1, Probabilidad: 0.5, Entropía: 0.1505149978319906
+Combinación: C » male » 1 » 2, Apariciones: 0, Probabilidad: 0, Entropía: 0
+Combinación: C » male » 1 » 3, Apariciones: 1, Probabilidad: 0.5, Entropía: 0.1505149978319906
+Combinación: Q » female » 0 » 1, Apariciones: 0, Probabilidad: 0, Entropía: 0
+Combinación: Q » female » 0 » 2, Apariciones: 0, Probabilidad: 0, Entropía: 0
+Combinación: Q » female » 0 » 3, Apariciones: 0, Probabilidad: 0, Entropía: 0
+Combinación: Q » female » 1 » 1, Apariciones: 0, Probabilidad: 0, Entropía: 0
+Combinación: Q » female » 1 » 2, Apariciones: 0, Probabilidad: 0, Entropía: 0
+Combinación: Q » female » 1 » 3, Apariciones: 0, Probabilidad: 0, Entropía: 0
+Combinación: Q » male » 0 » 1, Apariciones: 0, Probabilidad: 0, Entropía: 0
+Combinación: Q » male » 0 » 2, Apariciones: 0, Probabilidad: 0, Entropía: 0
+Combinación: Q » male » 0 » 3, Apariciones: 3, Probabilidad: 1, Entropía: 0
+Combinación: Q » male » 1 » 1, Apariciones: 0, Probabilidad: 0, Entropía: 0
+Combinación: Q » male » 1 » 2, Apariciones: 0, Probabilidad: 0, Entropía: 0
+Combinación: Q » male » 1 » 3, Apariciones: 0, Probabilidad: 0, Entropía: 0
+Combinación: S » female » 0 » 1, Apariciones: 0, Probabilidad: 0, Entropía: 0
+Combinación: S » female » 0 » 2, Apariciones: 0, Probabilidad: 0, Entropía: 0
+Combinación: S » female » 0 » 3, Apariciones: 4, Probabilidad: 1, Entropía: 0
+Combinación: S » female » 1 » 1, Apariciones: 2, Probabilidad: 0.15384615384615385, Entropía: 0.1250635933296701
+Combinación: S » female » 1 » 2, Apariciones: 10, Probabilidad: 0.7692307692307693, Entropía: 0.08764873254372058
+Combinación: S » female » 1 » 3, Apariciones: 1, Probabilidad: 0.07692307692307693, Entropía: 0.08568795017744898
+Combinación: S » male » 0 » 1, Apariciones: 4, Probabilidad: 0.23529411764705882, Entropía: 0.1478562188353674
+Combinación: S » male » 0 » 2, Apariciones: 4, Probabilidad: 0.23529411764705882, Entropía: 0.1478562188353674
+Combinación: S » male » 0 » 3, Apariciones: 9, Probabilidad: 0.5294117647058824, Entropía: 0.14622692396767892
+Combinación: S » male » 1 » 1, Apariciones: 5, Probabilidad: 0.625, Entropía: 0.127574989159953
+Combinación: S » male » 1 » 2, Apariciones: 0, Probabilidad: 0, Entropía: 0
+Combinación: S » male » 1 » 3, Apariciones: 3, Probabilidad: 0.375, Entropía: 0.15973827460210543
+Entropía Total: 1.6297128927792741
+-------------------------------------------------
+Arbol: Embarked » Sex » Pclass
+Combinación: C » female » 1, Apariciones: 0, Probabilidad: 0, Entropía: 0
+Combinación: C » female » 2, Apariciones: 0, Probabilidad: 0, Entropía: 0
+Combinación: C » female » 3, Apariciones: 1, Probabilidad: 1, Entropía: 0
+Combinación: C » male » 1, Apariciones: 2, Probabilidad: 0.5, Entropía: 0.1505149978319906
+Combinación: C » male » 2, Apariciones: 0, Probabilidad: 0, Entropía: 0
+Combinación: C » male » 3, Apariciones: 2, Probabilidad: 0.5, Entropía: 0.1505149978319906
+Combinación: Q » female » 1, Apariciones: 0, Probabilidad: 0, Entropía: 0
+Combinación: Q » female » 2, Apariciones: 0, Probabilidad: 0, Entropía: 0
+Combinación: Q » female » 3, Apariciones: 0, Probabilidad: 0, Entropía: 0
+Combinación: Q » male » 1, Apariciones: 0, Probabilidad: 0, Entropía: 0
+Combinación: Q » male » 2, Apariciones: 0, Probabilidad: 0, Entropía: 0
+Combinación: Q » male » 3, Apariciones: 3, Probabilidad: 1, Entropía: 0
+Combinación: S » female » 1, Apariciones: 2, Probabilidad: 0.11764705882352941, Entropía: 0.10934340302521091
+Combinación: S » female » 2, Apariciones: 10, Probabilidad: 0.5882352941176471, Entropía: 0.13555818904604347
+Combinación: S » female » 3, Apariciones: 5, Probabilidad: 0.29411764705882354, Entropía: 0.15631732854183975
+Combinación: S » male » 1, Apariciones: 9, Probabilidad: 0.36, Entropía: 0.15973109972377658
+Combinación: S » male » 2, Apariciones: 4, Probabilidad: 0.16, Entropía: 0.12734080277505203
+Combinación: S » male » 3, Apariciones: 12, Probabilidad: 0.48, Entropía: 0.15300420605971812
+Entropía Total: 1.142325024835622
+-------------------------------------------------
+Arbol: Embarked » Sex » Pclass » Survived
+Combinación: C » female » 1 » 0, Apariciones: 0, Probabilidad: 0, Entropía: 0
+Combinación: C » female » 1 » 1, Apariciones: 0, Probabilidad: 0, Entropía: 0
+Combinación: C » female » 2 » 0, Apariciones: 0, Probabilidad: 0, Entropía: 0
+Combinación: C » female » 2 » 1, Apariciones: 0, Probabilidad: 0, Entropía: 0
+Combinación: C » female » 3 » 0, Apariciones: 0, Probabilidad: 0, Entropía: 0
+Combinación: C » female » 3 » 1, Apariciones: 1, Probabilidad: 1, Entropía: 0
+Combinación: C » male » 1 » 0, Apariciones: 1, Probabilidad: 0.5, Entropía: 0.1505149978319906
+Combinación: C » male » 1 » 1, Apariciones: 1, Probabilidad: 0.5, Entropía: 0.1505149978319906
+Combinación: C » male » 2 » 0, Apariciones: 0, Probabilidad: 0, Entropía: 0
+Combinación: C » male » 2 » 1, Apariciones: 0, Probabilidad: 0, Entropía: 0
+Combinación: C » male » 3 » 0, Apariciones: 1, Probabilidad: 0.5, Entropía: 0.1505149978319906
+Combinación: C » male » 3 » 1, Apariciones: 1, Probabilidad: 0.5, Entropía: 0.1505149978319906
+Combinación: Q » female » 1 » 0, Apariciones: 0, Probabilidad: 0, Entropía: 0
+Combinación: Q » female » 1 » 1, Apariciones: 0, Probabilidad: 0, Entropía: 0
+Combinación: Q » female » 2 » 0, Apariciones: 0, Probabilidad: 0, Entropía: 0
+Combinación: Q » female » 2 » 1, Apariciones: 0, Probabilidad: 0, Entropía: 0
+Combinación: Q » female » 3 » 0, Apariciones: 0, Probabilidad: 0, Entropía: 0
+Combinación: Q » female » 3 » 1, Apariciones: 0, Probabilidad: 0, Entropía: 0
+Combinación: Q » male » 1 » 0, Apariciones: 0, Probabilidad: 0, Entropía: 0
+Combinación: Q » male » 1 » 1, Apariciones: 0, Probabilidad: 0, Entropía: 0
+Combinación: Q » male » 2 » 0, Apariciones: 0, Probabilidad: 0, Entropía: 0
+Combinación: Q » male » 2 » 1, Apariciones: 0, Probabilidad: 0, Entropía: 0
+Combinación: Q » male » 3 » 0, Apariciones: 3, Probabilidad: 1, Entropía: 0
+Combinación: Q » male » 3 » 1, Apariciones: 0, Probabilidad: 0, Entropía: 0
+Combinación: S » female » 1 » 0, Apariciones: 0, Probabilidad: 0, Entropía: 0
+Combinación: S » female » 1 » 1, Apariciones: 2, Probabilidad: 1, Entropía: 0
+Combinación: S » female » 2 » 0, Apariciones: 0, Probabilidad: 0, Entropía: 0
+Combinación: S » female » 2 » 1, Apariciones: 10, Probabilidad: 1, Entropía: 0
+Combinación: S » female » 3 » 0, Apariciones: 4, Probabilidad: 0.8, Entropía: 0.07752801040644512
+Combinación: S » female » 3 » 1, Apariciones: 1, Probabilidad: 0.2, Entropía: 0.13979400086720375
+Combinación: S » male » 1 » 0, Apariciones: 4, Probabilidad: 0.4444444444444444, Entropía: 0.15652556360505002
+Combinación: S » male » 1 » 1, Apariciones: 5, Probabilidad: 0.5555555555555556, Entropía: 0.14181805839072556
+Combinación: S » male » 2 » 0, Apariciones: 4, Probabilidad: 1, Entropía: 0
+Combinación: S » male » 2 » 1, Apariciones: 0, Probabilidad: 0, Entropía: 0
+Combinación: S » male » 3 » 0, Apariciones: 9, Probabilidad: 0.75, Entropía: 0.09370405245622496
+Combinación: S » male » 3 » 1, Apariciones: 3, Probabilidad: 0.25, Entropía: 0.1505149978319906
+Entropía Total: 1.3619446748856023
+-------------------------------------------------
+Arbol con menor entropía: Embarked » Survived » Pclass » Sex
+Combinación: C » 0 » 1 » female, Apariciones: 0, Probabilidad: 0, Entropía: 0
+Combinación: C » 0 » 1 » male, Apariciones: 1, Probabilidad: 1, Entropía: 0
+Combinación: C » 0 » 2 » female, Apariciones: 0, Probabilidad: 0, Entropía: 0
+Combinación: C » 0 » 2 » male, Apariciones: 0, Probabilidad: 0, Entropía: 0
+Combinación: C » 0 » 3 » female, Apariciones: 0, Probabilidad: 0, Entropía: 0
+Combinación: C » 0 » 3 » male, Apariciones: 1, Probabilidad: 1, Entropía: 0
+Combinación: C » 1 » 1 » female, Apariciones: 0, Probabilidad: 0, Entropía: 0
+Combinación: C » 1 » 1 » male, Apariciones: 1, Probabilidad: 1, Entropía: 0
+Combinación: C » 1 » 2 » female, Apariciones: 0, Probabilidad: 0, Entropía: 0
+Combinación: C » 1 » 2 » male, Apariciones: 0, Probabilidad: 0, Entropía: 0
+Combinación: C » 1 » 3 » female, Apariciones: 1, Probabilidad: 0.5, Entropía: 0.1505149978319906
+Combinación: C » 1 » 3 » male, Apariciones: 1, Probabilidad: 0.5, Entropía: 0.1505149978319906
+Combinación: Q » 0 » 1 » female, Apariciones: 0, Probabilidad: 0, Entropía: 0
+Combinación: Q » 0 » 1 » male, Apariciones: 0, Probabilidad: 0, Entropía: 0
+Combinación: Q » 0 » 2 » female, Apariciones: 0, Probabilidad: 0, Entropía: 0
+Combinación: Q » 0 » 2 » male, Apariciones: 0, Probabilidad: 0, Entropía: 0
+Combinación: Q » 0 » 3 » female, Apariciones: 0, Probabilidad: 0, Entropía: 0
+Combinación: Q » 0 » 3 » male, Apariciones: 3, Probabilidad: 1, Entropía: 0
+Combinación: Q » 1 » 1 » female, Apariciones: 0, Probabilidad: 0, Entropía: 0
+Combinación: Q » 1 » 1 » male, Apariciones: 0, Probabilidad: 0, Entropía: 0
+Combinación: Q » 1 » 2 » female, Apariciones: 0, Probabilidad: 0, Entropía: 0
+Combinación: Q » 1 » 2 » male, Apariciones: 0, Probabilidad: 0, Entropía: 0
+Combinación: Q » 1 » 3 » female, Apariciones: 0, Probabilidad: 0, Entropía: 0
+Combinación: Q » 1 » 3 » male, Apariciones: 0, Probabilidad: 0, Entropía: 0
+Combinación: S » 0 » 1 » female, Apariciones: 0, Probabilidad: 0, Entropía: 0
+Combinación: S » 0 » 1 » male, Apariciones: 4, Probabilidad: 1, Entropía: 0
+Combinación: S » 0 » 2 » female, Apariciones: 0, Probabilidad: 0, Entropía: 0
+Combinación: S » 0 » 2 » male, Apariciones: 4, Probabilidad: 1, Entropía: 0
+Combinación: S » 0 » 3 » female, Apariciones: 4, Probabilidad: 0.3076923076923077, Entropía: 0.15750257260888442
+Combinación: S » 0 » 3 » male, Apariciones: 9, Probabilidad: 0.6923076923076923, Entropía: 0.11056212198520055
+Combinación: S » 1 » 1 » female, Apariciones: 2, Probabilidad: 0.2857142857142857, Entropía: 0.15544801267150732
+Combinación: S » 1 » 1 » male, Apariciones: 5, Probabilidad: 0.7142857142857143, Entropía: 0.10437716834159858
+Combinación: S » 1 » 2 » female, Apariciones: 10, Probabilidad: 1, Entropía: 0
+Combinación: S » 1 » 2 » male, Apariciones: 0, Probabilidad: 0, Entropía: 0
+Combinación: S » 1 » 3 » female, Apariciones: 1, Probabilidad: 0.25, Entropía: 0.1505149978319906
+Combinación: S » 1 » 3 » male, Apariciones: 3, Probabilidad: 0.75, Entropía: 0.09370405245622496
+Entropía Total: 1.0731389215593876
+-------------------------------------------------

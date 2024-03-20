@@ -1,5 +1,5 @@
-
-
+use std::fs::OpenOptions;
+use std::io::prelude::*;
 
 #[derive(Debug, Clone)]
 struct Vector{
@@ -18,14 +18,20 @@ struct ResultadoArbol{
     arbol: String,
     resultados: Vec<Resultado>,
 }
-
-const PATH: &str = "src/examen.csv";
+const FILENAME: &str = "titanic.csv";
+const PATH: &str = "src/";
+const SOL_PATH: &str = "solutions/";
 const VERBOSE: bool = false;
+
+
+
+//FALTA: ESCRIBIR LOS RESULTADOS EN UN TXT
+//MODO DE REPORTE DE SOLO RAMAS Y ENTROPÍA TOTAL
 
 fn main() {
     let mut headers: Vec<String> = Vec::new();
     let mut vectores: Vec<Vector> = Vec::new();
-    read_csv_vector(&mut vectores, &mut headers, PATH);
+    read_csv_vector(&mut vectores, &mut headers, format!("{}{}", PATH, FILENAME).as_str());
     
     //Obtenemos la combinatoria de las columnas:
     let combinaciones: usize= (1..=headers.len()).product();
@@ -55,11 +61,21 @@ fn main() {
         &mut resultado_por_arbol
     );
 
-    // //IMPRIMIMOS LOS RESULTADOS:
+    //--------------------------------------IMPRIMIMOS LOS RESULTADOS:----------------------------------------------
+    //ARCHIVO DE SOLUCIONES:
+    let mut archivo = OpenOptions::new().create(true).write(true).open(format!(
+        "{}{}-sol-{}.txt", 
+        SOL_PATH, FILENAME, 
+        chrono::Local::now().format("%Y-%m-%d-%H-%M-%S")
+    )).unwrap();
+
     for resultado_arbol in resultado_por_arbol.clone(){
         println!("Arbol: {}", resultado_arbol.arbol);
+        archivo.write_all(format!("Arbol: {}\n", resultado_arbol.arbol).as_bytes()).unwrap();
+
         for resultado in resultado_arbol.resultados.clone(){
             println!("Combinación: {}, Apariciones: {}, Probabilidad: {}, Entropía: {}", resultado.combinacion, resultado.apariciones, resultado.probabilidad, resultado.entropia);
+            archivo.write_all(format!("Combinación: {}, Apariciones: {}, Probabilidad: {}, Entropía: {}\n", resultado.combinacion, resultado.apariciones, resultado.probabilidad, resultado.entropia).as_bytes()).unwrap();
         }
         //ENTROPÍA TOTAL:
         let mut entropia_total: f64 = 0.0;
@@ -67,8 +83,10 @@ fn main() {
             entropia_total += resultado.entropia;
         }
         println!("Entropía Total: {}", entropia_total);
+        archivo.write_all(format!("Entropía Total: {}\n", entropia_total).as_bytes()).unwrap();
 
         println!("-------------------------------------------------");
+        archivo.write_all("-------------------------------------------------\n".as_bytes()).unwrap();
     }
 
     //PREGUNTAMOS AL USUARIO SI QUIERE VER EL ARBOL CON MENOR ENTROPÍA:
@@ -106,12 +124,16 @@ fn main() {
             }
         }
         println!("Arbol con menor entropía: {}", arbol_menor_entropia.arbol);
+        archivo.write_all(format!("Arbol con menor entropía: {}\n", arbol_menor_entropia.arbol).as_bytes()).unwrap();
         let entropy: f64 = arbol_menor_entropia.resultados.iter().map(|x| x.entropia).sum();
         for resultado in arbol_menor_entropia.resultados.clone(){
             println!("Combinación: {}, Apariciones: {}, Probabilidad: {}, Entropía: {}", resultado.combinacion, resultado.apariciones, resultado.probabilidad, resultado.entropia);
+            archivo.write_all(format!("Combinación: {}, Apariciones: {}, Probabilidad: {}, Entropía: {}\n", resultado.combinacion, resultado.apariciones, resultado.probabilidad, resultado.entropia).as_bytes()).unwrap();
         }
         println!("Entropía Total: {}", entropy);
+        archivo.write_all(format!("Entropía Total: {}\n", entropy).as_bytes()).unwrap();
         println!("-------------------------------------------------");
+        archivo.write_all("-------------------------------------------------\n".as_bytes()).unwrap();
     }
 
 }
@@ -437,5 +459,4 @@ fn read_csv_vector(vector: &mut Vec<Vector>, headers: &mut Vec<String>, path: &s
             vector[j].col.push(col.to_string());
         }
     }
-
 }
