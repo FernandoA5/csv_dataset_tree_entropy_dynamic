@@ -1,9 +1,8 @@
 
 #[derive(Debug, Clone)]
 struct Vector{
-    header: String,
-    col: Vec<String>,
-
+    header: String, //NOMBRE DE LA COLUMNA
+    col: Vec<String>, //Vec<ID, VALOR>
 }
 
 const PATH: &str = "src/titanic.csv";
@@ -27,28 +26,28 @@ fn main() {
     let mut ramas_datos: Vec<Vector> = Vec::new();
     let mut ramas_combinaciones: Vec<Vec<String>> = Vec::new();
 
-    arbol_recursivo(n_headers, 
+    arbol_recursivo(n_headers, //CANTIDAD DE COLUMNAS
         headers, //HEADERS
-        &mut contador_arboles, 
-        0, 
-        n_headers, 
+        &mut contador_arboles, //CONTADOR DE ARBOLES
+        0, //PROFUNDIDAD INICIAL
+        n_headers, //CANTIDAD DE COLUMNAS ORIGINAL
         vectores.clone(), //DATOS
-        &mut ramas, //VACIO
-        &mut ramas_datos, //VACIO
-        &mut ramas_combinaciones //VACIO
+        &mut ramas, //VACIO. AQUÍ SE GUARDARÁN LAS RAMAS CÓMO: [SURVIVED, PCLASS, SEX, ETC] EN ORDEN DEL ÁRBOL
+        &mut ramas_datos, //VACIO. INSTANCIAS DE VECTORES.
+        &mut ramas_combinaciones //VACIO. AQUÍ SE GUARDARÁN LAS COMBINACIONES DE LAS RAMAS CÓMO: [[0,1,FEMALE],[0,1,MALE],[0,2,FEAMLE], ETC] EN ORDEN DEL ÁRBOL
     );
 }
 
 
-fn arbol_recursivo(n_headers: usize,
-    headers: Vec<String>, 
-    contador_arboles: &mut usize, 
-    depth: usize, 
-    n_headers_original: usize, 
-    vectores: Vec<Vector>,
-    ramas: &mut Vec<String>,
-    ramas_datos: &mut Vec<Vector>,
-    ramas_combinaciones: &mut Vec<Vec<String>>
+fn arbol_recursivo(n_headers: usize, //CANTIDAD DE COLUMNAS
+    headers: Vec<String>, //HEADERS
+    contador_arboles: &mut usize, //CONTADOR DE ARBOLES
+    depth: usize, //PROFUNDIDAD ACTUAL
+    n_headers_original: usize, //CANTIDAD DE COLUMNAS ORIGINAL
+    vectores: Vec<Vector>, //DATOS
+    ramas: &mut Vec<String>, //RAMAS ACTUALES: [SURVIVED,PCLASS,SEX] || [SURVIVED,SEX,PCLASS] etc
+    ramas_datos: &mut Vec<Vector>, //DATOS DE LAS RAMAS ACTUALES
+    ramas_combinaciones: &mut Vec<Vec<String>> //COMBINACIONES DE LAS RAMAS ACTUALES
 ) {
     if n_headers != 0 {
         for i_header in 0..headers.len(){
@@ -86,7 +85,10 @@ fn arbol_recursivo(n_headers: usize,
             
             let mut valores_unicos: Vec<String> = ramas_datos.last().unwrap().col.clone();
             valores_unicos.sort();
-            valores_unicos.dedup();
+            valores_unicos.dedup(); //ELIMINAMOS VALORES REPETIDOS
+
+
+
             if VERBOSE {
                 println!("{}Valores únicos: {:?}", "    ".repeat(depth+1), valores_unicos); 
             }
@@ -94,10 +96,17 @@ fn arbol_recursivo(n_headers: usize,
             //COMBINACIONES DE VALORES ÚNICOS:
             ramas_combinaciones.push(valores_unicos.clone());
             let mut ramas_combinadas_salida: Vec<String> = Vec::new();
-            combinatoria_recursiva(ramas_combinaciones.clone(), &mut ramas_combinadas_salida,
-            1, ramas_combinaciones.clone(), ramas.clone());
 
-
+            combinatoria_recursiva(
+                ramas_combinaciones.clone(),  //VALORES ÚNICOS
+                ramas_datos,
+                &mut ramas_combinadas_salida,
+                // &mut datos_ramas_combinadas ,
+                1,
+                ramas_combinaciones.clone(), 
+                ramas.clone(),
+                // &mut vec_apariciones
+            );
 
 
             let mut new_headers = headers.clone();
@@ -118,30 +127,97 @@ fn arbol_recursivo(n_headers: usize,
 
 
 //FUNCION QUE RECIVE UN VECTOR DE STRINGS Y REALIZA LA COMBINATORIA DE TODOS LOS VALORES DE FORMA RECURSIVA:
-fn combinatoria_recursiva(ramas_combinaciones: Vec<Vec<String>>, 
-    ramas_combinadas: &mut Vec<String>, 
-    depth: usize, 
-    ramas_combinaciones_original: Vec<Vec<String>>,
+fn combinatoria_recursiva(
+    ramas_combinaciones: Vec<Vec<String>>, //
+    datos_ramas_combinadas_entrada: &mut Vec<Vector>, //DATOS
+    ramas_combinadas: &mut Vec<String>, //RAMAS COMBINADAS
+    // datos_ramas_combinadas: &mut Vec<String>,
+    depth: usize, //PROFUNDIDAD
+    ramas_combinaciones_original: Vec<Vec<String>>, //RAMAS COMBINADAS ORIGINAL
     ramas: Vec<String>,
+    // vec_apariciones: &mut Vec<Vec<String>>
 ){
-    if ramas_combinaciones.len() != 0 {
+    if ramas_combinaciones.len() != 0  && datos_ramas_combinadas_entrada.len() != 0{
         for i in 0..ramas_combinaciones[0].len(){
             ramas_combinadas.push(ramas_combinaciones[0][i].clone());
+            // datos_ramas_combinadas.push(datos_ramas_combinadas_entrada[0].col[i].clone());
+
+            //
             if depth == ramas_combinaciones_original.len(){
-                println!("{depth}{}Combinación: {:?}", "    ".repeat(depth), ramas_combinadas);
+
+                //BUSQUEDA RECURSIVA DE LA COMBINACIÓN:
+                let mut apariciones = 0;
+                busqueda_recursiva(datos_ramas_combinadas_entrada.clone(), &mut apariciones, ramas_combinadas.clone());
+                println!("{depth}{}Apariciones de la Combinación {:?}: {apariciones}", "    ".repeat(depth), ramas_combinadas);
+                
             }
             else{
-                combinatoria_recursiva(ramas_combinaciones[1..].to_vec(), ramas_combinadas, depth+1, 
-                    ramas_combinaciones_original.clone(), ramas.clone());
+                combinatoria_recursiva(
+                    ramas_combinaciones[1..].to_vec(), 
+                    datos_ramas_combinadas_entrada,
+                    ramas_combinadas, 
+                    // datos_ramas_combinadas,
+                    depth+1, 
+                    ramas_combinaciones_original.clone(), 
+                    ramas.clone(),
+                    // vec_apariciones
+                );
             }
             ramas_combinadas.pop(); //ESTO ELIMINA EL ÚLTIMO ELEMENTO DENTRO DE UNA COMBINACIÓN
         }
     }
 }
 
+fn busqueda_recursiva(
+    datos_ramas_combinadas_entrada: Vec<Vector>, //DATOS DE LAS RAMAS
+    apariciones: &mut usize, //CONTADOR DE APARICIONES
+    ramas_combinadas: Vec<String> //LA COMBINACIÓN DE LOS VALORES ÚNICOS DE LA RAMA
+){
+    //SI EL VECTOR DE DATOS DE LAS RAMAS COMBINADAS NO ESTÁ VACÍO:
+    if datos_ramas_combinadas_entrada.len()>1{
+        //VECTOR EN EL QUE SE GUARDARÁN LAS COLUMNAS QUE COINCIDAN CON LA COMBINACIÓN DE VALORES ÚNICOS:
+        let mut nueva_lista_de_vectores: Vec<Vector> = Vec::new();
+        let mut vec_indices_coincidentes: Vec<usize> = Vec::new();
+        //RECORREMOS EL PRIMER VECTOR DE DATOS DE LAS RAMAS COMBINADAS:
+        for i in 0..datos_ramas_combinadas_entrada[0].col.len(){
+            //SI LA COMBINACIÓN DE VALORES ÚNICOS COINCIDE CON EL VALOR DE LA COLUMNA:
+            if datos_ramas_combinadas_entrada[0].col[i] == ramas_combinadas[0]{
+                //GUARDAMOS EL ÍNDICE DE LA COLUMNA:
+                vec_indices_coincidentes.push(i);
+            }
+        }   
+        //RECORREMOS DE NUEVO EL VECTOR DE DATOS DE LAS RAMAS COMBINADAS:
+        for i in 0..datos_ramas_combinadas_entrada.len(){
+            //RECORREMOS EL VECTOR DE ÍNDICES COINCIDENTES:
+            let mut col: Vec<String> = Vec::new();
+            for j in 0..vec_indices_coincidentes.len(){
+                //GUARDAMOS LOS VALORES DE LAS COLUMNAS QUE COINCIDEN CON LA COMBINACIÓN DE VALORES ÚNICOS:
+                col.push(datos_ramas_combinadas_entrada[i].col[vec_indices_coincidentes[j]].clone());
+            }
+            //GUARDAMOS LOS VALORES DE LAS COLUMNAS QUE COINCIDEN CON LA COMBINACIÓN DE VALORES ÚNICOS:
+            nueva_lista_de_vectores.push(Vector{header: datos_ramas_combinadas_entrada[i].header.clone(), col: col});
+        }
 
-
-
+        //UNA VEZ QUE TENEMOS EL NUEVO VECTOR, LO PASAMOS A LA FUNCIÓN DE BUSQUEDA RECURSIVA:
+        // println!("Nueva Lista de vectores: {:?}", nueva_lista_de_vectores);
+        busqueda_recursiva(
+            nueva_lista_de_vectores[1..].to_vec(), //ELIMINAMOS EL PRIMER ELEMENTO DE LA COMBINACIÓN
+            apariciones,  //PASAMOS EL CONTADOR DE APARICIONES
+            ramas_combinadas[1..].to_vec() //ELIMINAMOS EL PRIMER ELEMENTO DE LA COMBINACIÓN
+        );
+        
+    }
+    else{
+        //SI SOLO QUE DA UN VECTOR DE DATOS DE LAS RAMAS COMBINADAS:
+        for i in 0..datos_ramas_combinadas_entrada[0].col.len(){
+            // println!("{:?}", datos_ramas_combinadas_entrada[0].col[i] );
+            // println!("{:?}", ramas_combinadas[0] );
+            if datos_ramas_combinadas_entrada[0].col[i] == ramas_combinadas[0]{
+                *apariciones += 1;
+            }
+        }
+    }
+}
 
 
 
@@ -158,7 +234,7 @@ fn read_csv_vector(vector: &mut Vec<Vector>, headers: &mut Vec<String>, path: &s
         headers.push(header.to_string());
     }
     println!("{:?}", headers);
-
+    let mut id: usize = 0;
     //Implementación correcta:
     for (i, result) in rdr.records().enumerate() {
         let record = result.unwrap();
@@ -167,6 +243,7 @@ fn read_csv_vector(vector: &mut Vec<Vector>, headers: &mut Vec<String>, path: &s
                 vector.push(Vector{header: headers[j].to_string(), col: Vec::new() });
             }
             vector[j].col.push(col.to_string());
+            id += 1;
         }
     }
 
